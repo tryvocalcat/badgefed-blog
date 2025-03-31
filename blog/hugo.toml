@@ -19,7 +19,7 @@ url = "/"
 title = 'My New Hugo Site enabled for the Fediverse!'
 author = 'Me'
 description = "A static site fediverse enabled by activitypub!"
-fediverseHandle="MYFEDIVERSEHANDLE"
+fediverseHandle='@blog@badgefedblog.vocalcat.com'
 comments=true
 
 [[deployment.targets]]

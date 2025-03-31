@@ -1,13 +1,13 @@
 {
-  "subject": "acct:blog@stemjhiwclz6mcs.z22.web.core.windows.net",
+  "subject": "acct:badgefed@badgefedblog.vocalcat.com",
   "aliases": [
-    "https://stemjhiwclz6mcs.z22.web.core.windows.net/socialweb/actor"
+    "https://badgefedblog.vocalcat.com/socialweb/actor"
   ],
   "links": [
     {
       "rel": "self",
       "type": "application/activity+json",
-      "href": "https://stemjhiwclz6mcs.z22.web.core.windows.net/socialweb/actor"
+      "href": "https://badgefedblog.vocalcat.com/socialweb/actor"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "baseDomain": "https://blogc3mm3g2jhkes6.z22.web.core.windows.net/",
-  "actorName": "blog",
+  "baseDomain": "https://badgefedblog.vocalcat.com/",
+  "actorName": "badgefed",
   "inboxEndpoint": "https://func-lsmukthfdluxo.azurewebsites.net/api/Inbox",
   "authorUsername": "@mapache@hachyderm.io"
 }
