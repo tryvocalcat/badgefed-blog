@@ -11,9 +11,7 @@
 <meta name="description" content="Empowering decentralized credentialing in the Fediverse through open-source innovation.">
 <meta name="author" content="VocalCat">
 <link rel="canonical" href="https://badgefed.vocalcat.com/">
-
-<link crossorigin="anonymous" href="/css/custom.css" rel="preload stylesheet" as="style">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://badgefed.vocalcat.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://badgefed.vocalcat.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://badgefed.vocalcat.com/favicon-32x32.png">
@@ -59,14 +57,15 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="BadgeFed Official Blog" />
-<meta property="og:description" content="Empowering decentralized credentialing in the Fediverse through open-source innovation." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://badgefed.vocalcat.com/" /><meta property="og:site_name" content="BadgeFed Blog" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="BadgeFed Official Blog"/>
-<meta name="twitter:description" content="Empowering decentralized credentialing in the Fediverse through open-source innovation."/>
+</noscript><meta property="og:url" content="https://badgefed.vocalcat.com/">
+  <meta property="og:site_name" content="BadgeFed Official Blog">
+  <meta property="og:title" content="BadgeFed Official Blog">
+  <meta property="og:description" content="Empowering decentralized credentialing in the Fediverse through open-source innovation.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="BadgeFed Official Blog">
+<meta name="twitter:description" content="Empowering decentralized credentialing in the Fediverse through open-source innovation.">
 
 <script type="application/ld+json">
 {
@@ -75,7 +74,7 @@
   "name": "BadgeFed Official Blog",
   "url": "https://badgefed.vocalcat.com/",
   "description": "Empowering decentralized credentialing in the Fediverse through open-source innovation.",
-  "thumbnailUrl": "https://badgefed.vocalcat.com/favicon.ico",
+  "logo": "https://badgefed.vocalcat.com/favicon.ico",
   "sameAs": [
       
   ]
@@ -100,7 +99,7 @@
         <div class="logo">
             <a href="https://badgefed.vocalcat.com/" accesskey="h" title="BadgeFed Official Blog (Alt + H)">BadgeFed Official Blog</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -128,10 +127,10 @@
                     <span class="active">Home</span>
                 </a>
             </li>
-            <li><input type="button" onclick="showSubscribeModal();" value="Subscribe" /></li>
         </ul>
     </nav>
-</header><main class="main"> 
+</header>
+<main class="main"> 
 
 <article class="first-entry"> 
   <header class="entry-header">
@@ -175,7 +174,8 @@ By reusing the social graph already present in the Fediverse, we can enable a se
     </main>
     
 <footer class="footer">
-    <span>&copy; 2025 <a href="https://badgefed.vocalcat.com/">BadgeFed Official Blog</a></span>
+        <span>&copy; 2025 <a href="https://badgefed.vocalcat.com/">BadgeFed Official Blog</a></span> · 
+
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
@@ -186,71 +186,7 @@ By reusing the social graph already present in the Fediverse, we can enable a se
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a><script>
-    var blogActor = '@badgefed@vocalcat.com';
-
-    var showSubscribeModal = function () {
-      var modal = document.getElementById("subscribe-modal");
-      modal.style.display = "block";
-    };
-
-    var subscribeInMastodon = function () {
-      var mastodonUrl = document.getElementById('subscribe-mastodon-url-host').value;
-
-      if (mastodonUrl == undefined || mastodonUrl == '') {
-        document.getElementById('error-subscribe').style.display = 'block';
-        document.getElementById('error-subscribe').innerText = 'Please enter your Mastodon server URL. For example: techhub.social';
-        return;
-      }
-
-      
-      if (!mastodonUrl.includes('.')) {
-        document.getElementById('error-subscribe').style.display = 'block';
-        document.getElementById('error-subscribe').innerText = 'Please enter a valid Mastodon server URL. For example: techhub.social';
-        return;
-      }
-      var mastodonUrl = document.getElementById('subscribe-mastodon-url-host').value;
-
-      if (!mastodonUrl.startsWith('http')) {
-        mastodonUrl = "https:\/\/" + mastodonUrl;
-      }
-
-      document.location.href = mastodonUrl + '/authorize_interaction?uri=' + encodeURIComponent(blogActor);
-    };
-
-    var closeBtnOnClick = function () {
-      var modal = document.getElementById("subscribe-modal");
-      modal.style.display = "none";
-    };
-
-    
-    window.onclick = function (event) {
-      if (event.target == modal) {
-        var modal = document.getElementById("subscribe-modal");
-        modal.style.display = "none";
-      }
-    }
-</script>
-
-<div id="subscribe-modal" class="modal" style="display: none" >
-<div class="modal-content">
-  <span id="close-modal" class="close" onclick="closeBtnOnClick();">&times;</span>
-  <h3>Subscribe</h3>
-  <p>
-    You can subscribe to this blog by following with any existing account on any Mastodon server.
-  </p>
-  <p>
-    <strong>Where is your account hosted?</strong>
-  </p>
-  <form onsubmit="subscribeInMastodon(); return false;">
-    <span id="error-subscribe" style="display: none; color: red;">&nbsp;</span>
-    <input type="text" class="mastodon-url-input" id="subscribe-mastodon-url-host" placeholder="ex. mastodon.social">
-    <input class="button-9" type="submit" value="Take me home!" onclick="replyToMastodon();">
-  </form>
-  <p></p>
-  <p>Not on Mastodon? <a class="join-mastodon-link" href="https://joinmastodon.org/">Join now!</a></p>
-</div>
-</div>
+</a>
 
 <script>
     let menu = document.getElementById('menu')
