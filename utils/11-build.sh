@@ -19,6 +19,7 @@ Rss2Outbox --rssPath public/index.xml \
     --staticPath static \
     --authorUsername "\\$authorUsername" \
     --siteActorUri $siteActorUri \
-    --domain "${baseDomain%/}"
+    --domain "${baseDomain%/}" \
+    --template "{content} <br /> <p>You can read the article \"{title}\" by {author} <a href=\"{link}\">here</a> as well.</p> {tags}"
 hugo
 popd
