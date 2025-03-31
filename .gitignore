@@ -1,4 +1,3 @@
-blog/public/**
 .hugo_build.lock
 activitypub-utils-*.gz
 private.pem
