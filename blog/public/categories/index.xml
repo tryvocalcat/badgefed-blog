@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on BadgeFed Official Blog</title>
-    <link>https://blogc3mm3g2jhkes6.z22.web.core.windows.net/categories/</link>
+    <link>https://badgefed.vocalcat.com/categories/</link>
     <description>Recent content in Categories on BadgeFed Official Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://blogc3mm3g2jhkes6.z22.web.core.windows.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://badgefed.vocalcat.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
