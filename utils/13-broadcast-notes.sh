@@ -9,6 +9,7 @@ DEPLOY_FILE="$script_dir/../deploy.json"
 STATIC_WEB_URL=$(cat $CONFIG_FILE  | jq '.baseDomain' -r)
 AZURE_FUNCTION_NAME=$(cat $DEPLOY_FILE  | jq '.azureFunctionsName' -r)
 RESOURCE_GROUP=$(cat $DEPLOY_FILE  | jq '.resourceGroupName' -r)
+BROADCASTED_NOTES="$script_dir/../broadcasted.txt"
 
 AZ_FUNCTIONS_SETTINGS=$(az functionapp config appsettings list --name $AZURE_FUNCTION_NAME --resource-group $RESOURCE_GROUP)
 
@@ -19,5 +20,7 @@ export ACTIVITYPUB_DOTNET_STORAGE_CONNECTIONSTRING=$(echo $AZ_FUNCTIONS_SETTINGS
 for file in $NOTES_DIR/*; do
     echo $file
 
-    BroadcastPost --notePath $file
+    grep -q "$file" $BROADCASTED_NOTES && continue
+     
+    BroadcastPost --notePath $file && echo "$file" >> $BROADCASTED_NOTES
 done
