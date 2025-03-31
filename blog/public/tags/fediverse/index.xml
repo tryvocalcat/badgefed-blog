@@ -47,6 +47,25 @@ One command, and boom—you&rsquo;re federating badges like a pro.</p>
 This is an open-source project, and the best way to make sure it fits the needs of the Fediverse is to have the community involved.</p>
 <p>If you want to help, hop into our discussions, check out the repo at <a href="https://github.com/tryvocalcat/badgefed">https://github.com/tryvocalcat/badgefed</a>, or just share your thoughts. Let&rsquo;s make federated badges a thing! 🏅</p>
 ]]></content:encoded>
+      
+        
+          <category>activitypub</category>
+        
+          <category>badgefed</category>
+        
+          <category>fediverse</category>
+        
+          <category>dotnet</category>
+        
+          <category>decentralization</category>
+        
+          <category>open-source</category>
+        
+          <category>identity</category>
+        
+          <category>roadmap</category>
+        
+      
     </item>
     <item>
       <title>Introducing a Minimalistic ActivityPub Badge System: Decentralized, Verified, and Built for the Fediverse</title>
@@ -94,6 +113,17 @@ Imagine the survivability of certificates in such a system—if your issuer disa
 <hr>
 <p>Feel free to share your thoughts, questions, and comments. Badge up, own your credentials, and let the Fediverse showcase your achievements.</p>
 ]]></content:encoded>
+      
+        
+          <category>activitypub</category>
+        
+          <category>badfeded</category>
+        
+          <category>fediverse</category>
+        
+          <category>dotnet</category>
+        
+      
     </item>
     <item>
       <title>Hello Fediverse!</title>
@@ -101,6 +131,15 @@ Imagine the survivability of certificates in such a system—if your issuer disa
       <pubDate>Sun, 30 Mar 2025 18:27:54 +0000</pubDate>
       <guid>https://badgefed.vocalcat.com/post/hello-world/</guid>
       <description></description>
+      
+        
+          <category>activitypub</category>
+        
+          <category>badfeded</category>
+        
+          <category>fediverse</category>
+        
+      
     </item>
   </channel>
 </rss>
