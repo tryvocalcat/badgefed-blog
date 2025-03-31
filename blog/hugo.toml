@@ -16,12 +16,8 @@ identifier="home"
 url = "/"
 
 [params]
-title = 'My New Hugo Site enabled for the Fediverse!'
-author = 'Me'
+title = 'BadgeFed Blog'
+author = 'VocalCat'
 description = "A static site fediverse enabled by activitypub!"
-fediverseHandle='@blog@vocalcat.com'
+fediverseHandle='@badgefed@vocalcat.com'
 comments=true
-
-[[deployment.targets]]
-name = "azure"
-URL="azblob://$web"
