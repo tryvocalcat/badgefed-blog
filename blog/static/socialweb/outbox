@@ -1,8 +1,51 @@
 {
   "@context": "https://www.w3.org/ns/activitystreams",
-  "id": "https://maho.dev/socialweb/outbox",
+  "id": "https://vocalcat.com/socialweb/outbox",
   "type": "OrderedCollection",
-  "summary": "Recent content on My New Hugo Site",
-  "totalItems": 0,
-  "orderedItems": []
+  "summary": "Recent content on BadgeFed Official Blog",
+  "totalItems": 1,
+  "orderedItems": [
+    {
+      "@context": "https://www.w3.org/ns/activitystreams",
+      "id": "https://vocalcat.com/socialweb/notes/2d3e2b294293f6d67696c11b69d8d3d8/create",
+      "type": "Create",
+      "actor": "https://vocalcat.com/socialweb/actor",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [],
+      "published": "2023-03-30T18:27:54\u002B00:00",
+      "object": {
+        "@context": "https://www.w3.org/ns/activitystreams",
+        "id": "https://vocalcat.com/socialweb/notes/2d3e2b294293f6d67696c11b69d8d3d8",
+        "type": "Note",
+        "hash": "2d3e2b294293f6d67696c11b69d8d3d8",
+        "content": "\u003Cp\u003EHello Fediverse!\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E\u003Cp\u003EFull article by \u003Ca href=\u0022https://hachyderm.io/users/mapache\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Emapache\u003C/span\u003E\u003C/a\u003E: \u003Ca href=\u0027https://blogc3mm3g2jhkes6.z22.web.core.windows.net/post/hello-world/\u0027\u003Ehttps://blogc3mm3g2jhkes6.z22.web.core.windows.net/post/hello-world/\u003C/a\u003E\u003C/p\u003E\u003Cp\u003E\u003C/p\u003E",
+        "url": "https://blogc3mm3g2jhkes6.z22.web.core.windows.net/post/hello-world/",
+        "attributedTo": "https://vocalcat.com/socialweb/actor",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "cc": [],
+        "published": "2023-03-30T18:27:54\u002B00:00",
+        "tag": [
+          {
+            "Type": "Mention",
+            "Href": "https://hachyderm.io/users/mapache",
+            "Name": "\\@mapache@hachyderm.io"
+          }
+        ],
+        "replies": {
+          "id": "https://vocalcat.com/socialweb/replies/2d3e2b294293f6d67696c11b69d8d3d8",
+          "type": "Collection",
+          "first": {
+            "type": "CollectionPage",
+            "next": "https://vocalcat.com/socialweb/replies/2d3e2b294293f6d67696c11b69d8d3d8?page=true",
+            "partOf": "https://vocalcat.com/socialweb/replies/2d3e2b294293f6d67696c11b69d8d3d8",
+            "items": []
+          }
+        }
+      }
+    }
+  ]
 }
