@@ -1,8 +1,7 @@
 baseURL='https://blogc3mm3g2jhkes6.z22.web.core.windows.net/'
 languageCode = 'en-us'
-title = 'My New Hugo Site enabled for the Fediverse!'
+title = 'BadgeFed Official Blog'
 theme = 'PaperMod'
-paginate = 5
 
 buildFuture = true
 buildExpired = true
@@ -18,6 +17,6 @@ url = "/"
 [params]
 title = 'BadgeFed Blog'
 author = 'VocalCat'
-description = "A static site fediverse enabled by activitypub!"
+description = "Empowering decentralized credentialing in the Fediverse through open-source innovation."
 fediverseHandle='@badgefed@vocalcat.com'
 comments=true

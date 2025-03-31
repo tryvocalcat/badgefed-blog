@@ -1,8 +1,8 @@
 +++
 title = 'Hello Fediverse!'
-date = 2024-03-17T18:27:54Z
-draft = true
-tags=["activitypub", "fediverse"]
+date = 2023-03-30T18:27:54Z
+draft = false
+tags=["activitypub", "badfeded", "fediverse"]
 +++
 
-This static site is alive and activitpub enabled!
+
