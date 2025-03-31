@@ -1,0 +1,26 @@
+baseURL = 'https://myblogstatic.z22.web.core.windows.net/'
+languageCode = 'en-us'
+title = 'My New Hugo Site enabled for the Fediverse!'
+theme = 'PaperMod'
+paginate = 5
+
+buildFuture = true
+buildExpired = true
+
+mainsections = ["post"]
+
+[[menu.main]]
+name = "Home"
+weight=10
+identifier="home"
+url = "/"
+
+[params]
+title = 'My New Hugo Site enabled for the Fediverse!'
+author = 'Me'
+description = "A static site fediverse enabled by activitypub!"
+github="mahomedalid"
+
+[[deployment.targets]]
+name = "azure"
+URL="azblob://$web"
