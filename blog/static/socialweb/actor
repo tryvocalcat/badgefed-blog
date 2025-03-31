@@ -7,8 +7,8 @@
   "inbox": "https://func-lsmukthfdluxo.azurewebsites.net/api/Inbox",
   "outbox": "https://badgefed.vocalcat.com/socialweb/outbox",
   "preferredUsername": "badgefed",
-  "name": "My blog name",
-  "summary": "A new static site ready for the Fediverse!",
+  "name": "The BadgeFed Project",
+  "summary": "The BadgeFed Project Blog Account A Decentralized Badge Federation based in ActivityPub and Open Badges",
   "url": "https://badgefed.vocalcat.com/",
   "discoverable": true,
   "memorial": false,
@@ -32,7 +32,7 @@
   "attachment": [
     {
       "type": "PropertyValue",
-      "name": "Blog",
+      "name": "Blog Site",
       "value": "<a href=\"https://badgefed.vocalcat.com/\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">Blog</span><span class=\"invisible\"></span></a>"
     }
   ]
