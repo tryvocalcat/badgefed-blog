@@ -5,10 +5,6 @@ script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 socialweb_dir=$(cd $script_dir/../blog/public/socialweb && pwd)
 prefix=$(cd $script_dir/../blog/public/ && pwd)
 
-git add blog/public
-git commit -m "New blog version"
-git push -u origin HEAD
-
 # Loop through files in socialweb_dir
 find "$socialweb_dir" -type f -exec bash -c '
     prefix="$1"
