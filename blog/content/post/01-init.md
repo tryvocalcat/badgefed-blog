@@ -1,6 +1,6 @@
 +++
 title = 'Introducing a Minimalistic ActivityPub Badge System: Decentralized, Verified, and Built for the Fediverse'
-date = 2023-03-30T20:27:54Z
+date = 2025-03-30T20:27:54Z
 draft = false
 tags=["activitypub", "badfeded", "fediverse", "dotnet"]
 author="Maho Pacheco"
