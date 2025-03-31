@@ -1,12 +1,10 @@
 +++
-title = 'Introducing a Minimalistic ActivityPub Badge System'
+title = 'Introducing a Minimalistic ActivityPub Badge System: Decentralized, Verified, and Built for the Fediverse'
 date = 2023-03-30T20:27:54Z
 draft = false
 tags=["activitypub", "badfeded", "fediverse", "dotnet"]
 author="Maho Pacheco"
 +++
-
-# Introducing a Minimalistic ActivityPub Badge System: Decentralized, Verified, and Built for the Fediverse
 
 In the ever-evolving world of digital credentials, we’ve seen centralized platforms like Credly dominate the badge and certification space.
 But what if we could flip the script? What if badges could be decentralized, self-certified, and issued directly by organizations in the Fediverse?
