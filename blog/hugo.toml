@@ -20,3 +20,8 @@ author = 'VocalCat'
 description = "Empowering decentralized credentialing in the Fediverse through open-source innovation."
 fediverseHandle='@badgefed@vocalcat.com'
 comments=true
+showFullTextinRSS=true
+
+[[params.socialIcons.rss]]
+name= "rss"
+url="https://badgefed.vocalcat.com/index.html"
