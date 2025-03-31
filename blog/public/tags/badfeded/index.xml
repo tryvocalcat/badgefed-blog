@@ -6,20 +6,59 @@
     <description>Recent content in Badfeded on BadgeFed Official Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Mar 2023 20:27:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Mar 2025 20:27:54 +0000</lastBuildDate>
     <atom:link href="https://badgefed.vocalcat.com/tags/badfeded/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing a Minimalistic ActivityPub Badge System: Decentralized, Verified, and Built for the Fediverse</title>
       <link>https://badgefed.vocalcat.com/post/01-init/</link>
-      <pubDate>Thu, 30 Mar 2023 20:27:54 +0000</pubDate>
+      <pubDate>Sun, 30 Mar 2025 20:27:54 +0000</pubDate>
       <guid>https://badgefed.vocalcat.com/post/01-init/</guid>
-      <description>In the ever-evolving world of digital credentials, we’ve seen centralized platforms like Credly dominate the badge and certification space. But what if we could flip the script? What if badges could be decentralized, self-certified, and issued directly by organizations in the Fediverse?
-By reusing the social graph already present in the Fediverse, we can enable a seamless integration of badges into the networks people are already part of. Instead of creating new, siloed systems for certification, we can utilize the trusted connections and relationships within platforms like Mastodon to issue and verify badges.</description>
+      <description>&lt;p&gt;In the ever-evolving world of digital credentials, we’ve seen centralized platforms like Credly dominate the badge and certification space.
+But what if we could flip the script? What if badges could be decentralized, self-certified, and issued directly by organizations in the Fediverse?&lt;/p&gt;
+&lt;p&gt;By reusing the social graph already present in the Fediverse, we can enable a seamless integration of badges into the networks people are already part of.
+Instead of creating new, siloed systems for certification, we can utilize the trusted connections and relationships within platforms like Mastodon to issue and verify badges.
+It’s about making the credentialing process as decentralized and open as the social interactions we have online today.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In the ever-evolving world of digital credentials, we’ve seen centralized platforms like Credly dominate the badge and certification space.
+But what if we could flip the script? What if badges could be decentralized, self-certified, and issued directly by organizations in the Fediverse?</p>
+<p>By reusing the social graph already present in the Fediverse, we can enable a seamless integration of badges into the networks people are already part of.
+Instead of creating new, siloed systems for certification, we can utilize the trusted connections and relationships within platforms like Mastodon to issue and verify badges.
+It’s about making the credentialing process as decentralized and open as the social interactions we have online today.</p>
+<p>That&rsquo;s exactly what I&rsquo;m working on with my latest project: a minimalistic ActivityPub implementation for badges, built using #dotnet.</p>
+<h2 id="the-problem-with-traditional-badge-systems">The Problem with Traditional Badge Systems</h2>
+<p>It’s mind-blowing that major organizations—think Microsoft, Non-Profits, and educational institutions—spend thousands of dollars on badge providers like Pearson just to get a &ldquo;verified&rdquo; badge.
+These badges, while useful, are locked into centralized platforms that limit the potential for genuine, open verification systems.</p>
+<p>What if badges could be as decentralized as social media profiles? Imagine organizations running their own badge systems—similar to the way social media instances like Mastodon operate in the Fediverse.
+Think about a domain-based badge system like <code>badges.mozilla.com</code>, or a school district offering badges at <code>certifications.myschooldistrict.com</code>. Even a podcast could issue badges to its guests, with the entire verification happening directly within the domain.</p>
+<h2 id="why-activitypub">Why ActivityPub?</h2>
+<p>ActivityPub is already a powerful protocol for secure, decentralized communication between actors in the Fediverse.
+It enables us to create verifiable interactions and sign digital artifacts in a way that was previously the domain of a few centralized certificate authorities.
+With ActivityPub, we can extend this to badges, allowing people and organizations to interact with verified credentials in the same decentralized way that we share posts,
+follows, and interactions across Mastodon or any other Fediverse platform.</p>
+<p>Think about how LetsEncrypt disrupted the centralized SSL certificate market. Now, with a decentralized badge system, we can enable a similar revolution for verified credentials.</p>
+<h2 id="the-project-so-far">The Project So Far</h2>
+<p>I’ve made some solid progress, and there’s now a functional proof of concept (PoC) in place. The project is live and can be found here: <a href="https://github.com/tryvocalcat/activitypub-badges">ActivityPub Badges on GitHub</a>.</p>
+<p>This fediverse actor, the badges issuer, isn’t a Mastodon instance, a Pleroma, or a blog—it’s an actor in a badge system. You can follow it on Mastodon, but its badges are not microblogging notes.
+Instead, think of it as a way to display verified credentials directly from a decentralized source.</p>
+<p>Here’s the first badge I’ve issued:</p>
+<p><a href="https://badges.vocalcat.com/record/10">First Badge: View on Mastodon</a></p>
+<p>Simply copy and paste the URL and open it in your Mastodon client. The badge will show up as a note, and you can celebrate, comment, or share it within your ActivityPub network.
+This is how the badge system will work—just like social media, but with credentials!</p>
+<h2 id="a-decentralized-future-for-badges">A Decentralized Future for Badges</h2>
+<p>The ultimate goal is to create a decentralized badge system where different instances of badge issuers will recognize each other’s certifications.
+This way, even if a certificate issuer disappears, the credential is still secure and verifiable across the network.
+Imagine the survivability of certificates in such a system—if your issuer disappears, the credential still exists in a federated, decentralized space.</p>
+<p>It’s an exciting future, and I’m just getting started. If you want to learn more about the progress of this project, follow me, or check out the GitHub repo. (Btw, I am not a Mastodon account, or a BadgeFed system, I am a static site).</p>
+<p>Let’s create a future where verification is decentralized, secure, and open for everyone.</p>
+<h2 id="early-adopter-badge-who-wants-one">Early Adopter Badge: Who Wants One?</h2>
+<p>As with any new project, there’s always room for early adopters. If you’re interested in getting your own badge, let me know! Follow the progress and get involved as we continue to build this decentralized badge system.</p>
+<hr>
+<p>Feel free to share your thoughts, questions, and comments. Badge up, own your credentials, and let the Fediverse showcase your achievements.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Hello Fediverse!</title>
       <link>https://badgefed.vocalcat.com/post/hello-world/</link>
-      <pubDate>Thu, 30 Mar 2023 18:27:54 +0000</pubDate>
+      <pubDate>Sun, 30 Mar 2025 18:27:54 +0000</pubDate>
       <guid>https://badgefed.vocalcat.com/post/hello-world/</guid>
       <description></description>
     </item>

@@ -1,0 +1,31 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "https://badgefed.vocalcat.com/socialweb/notes/482bd1f21be2fc401e8d8fb9b8483a53",
+  "type": "Note",
+  "hash": "482bd1f21be2fc401e8d8fb9b8483a53",
+  "content": "\u003Cp\u003EHey Fediverse, we\u0026rsquo;ve got some exciting news\u2014BadgeFed is moving out of the prototype phase! That\u0026rsquo;s right, what started as a scrappy proof-of-concept is now becoming a real, structured, and (dare we say) polished federated badge system.\nAnd since we believe in working out in the open, we want to share our roadmap with you.\u003C/p\u003E\n\u003Ch2 id=\u0022the-big-three-priorities-\u0022\u003EThe Big Three Priorities \uD83C\uDFC6\u003C/h2\u003E\n\u003Cp\u003EWe\u0026rsquo;re focusing on three major areas to take BadgeFed from \u0026ldquo;hey, this kinda works\u0026rdquo; to \u0026ldquo;oh wow, this is actually usable.\u0026rdquo;\u003C/p\u003E\n\u003Ch3 id=\u00221-authentication-\u0022\u003E1. Authentication \uD83D\uDD10\u003C/h3\u003E\n\u003Cp\u003ERight now, logging in is a bit of a mess. So we\u0026rsquo;re tackling authentication properly, integrating OAuth so you can log in using your Mastodon (or other Fediverse) account.\nWe\u0026rsquo;re building this with .NET and Blazor because performance and scalability matter. Plus, no one wants to manage yet another username/password combo.\u003C/p\u003E\n\u003Ch3 id=\u00222-federation--spec-\u0022\u003E2. Federation \u0026amp; Spec \uD83C\uDF0D\u003C/h3\u003E\n\u003Cp\u003EWe\u0026rsquo;re making sure BadgeFed speaks ActivityPub fluently. Right now, federation kinda-sorta works, but we need to define a proper spec that makes badge issuing,\nearning, and verification seamless across different platforms. Whether you\u0026rsquo;re on Mastodon, Pleroma, or something else entirely, BadgeFed should just work.\nWe\u0026rsquo;re ironing out the kinks so badges travel as smoothly as your cat pictures. Also we want to support export and import from OpenBadges spec, and we need to do some experimentation on how this could travel on the fediverse.\u003C/p\u003E\n\u003Ch3 id=\u00223-packaging-docs-and-docker-\u0022\u003E3. Packaging, Docs, and Docker \uD83D\uDCE6\u003C/h3\u003E\n\u003Cp\u003EWhat\u0026rsquo;s cooler than a decentralized badge system? A decentralized badge system that\u0026rsquo;s easy to set up.\nWe\u0026rsquo;re working on clear documentation, making installation painless, and putting together a Docker container so you don\u0026rsquo;t have to wrestle with dependencies or even dotnet.\nOne command, and boom\u2014you\u0026rsquo;re federating badges like a pro.\u003C/p\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022the-would-be-nice-priorities-\u0022\u003EThe \u0026ldquo;Would Be Nice\u0026rdquo; Priorities \u2728\u003C/h2\u003E\n\u003Cp\u003EOnce the big three are solid, we\u0026rsquo;re setting our sights on some much-needed improvements:\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003E\u003Cstrong\u003EApproval Process \u0026amp; Expiration\u003C/strong\u003E \u2013 Not all badges should last forever. We\u0026rsquo;re adding controls for expiration dates and approval workflows.\u003C/li\u003E\n\u003Cli\u003E\u003Cstrong\u003EStats \u0026amp; Insights\u003C/strong\u003E \u2013 Want to see how many people are earning badges? We\u0026rsquo;ll be adding analytics to track adoption and engagement.\u003C/li\u003E\n\u003Cli\u003E\u003Cstrong\u003ECSS \u0026amp; UI/UX Love\u003C/strong\u003E \u2013 Let\u0026rsquo;s be honest, the prototype is functional, but it\u0026rsquo;s not winning any beauty contests. Expect smoother UI, better mobile support, and fewer \u0026ldquo;why is this button here?\u0026rdquo; moments.\u003C/li\u003E\n\u003Cli\u003E\u003Cstrong\u003ELanding Page\u003C/strong\u003E \u2013 BadgeFed deserves a proper introduction. A clean, informative landing page is in the works.\u003C/li\u003E\n\u003C/ul\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022whats-next-\u0022\u003EWhat\u0026rsquo;s Next? \uD83D\uDCC5\u003C/h2\u003E\n\u003Cp\u003EWe\u0026rsquo;re heads-down working on these priorities, but as always, feedback, ideas, and contributions are welcome.\nThis is an open-source project, and the best way to make sure it fits the needs of the Fediverse is to have the community involved.\u003C/p\u003E\n\u003Cp\u003EIf you want to help, hop into our discussions, check out the repo at \u003Ca href=\u0022https://github.com/tryvocalcat/badgefed\u0022\u003Ehttps://github.com/tryvocalcat/badgefed\u003C/a\u003E, or just share your thoughts. Let\u0026rsquo;s make federated badges a thing! \uD83C\uDFC5\u003C/p\u003E\n \u003Cbr /\u003E \u003Cp\u003EYou can read the article \u0022BadgeFed: From Prototype to Reality\u0022 by \u003Ca href=\u0022https://hachyderm.io/users/mapache\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Emapache\u003C/span\u003E\u003C/a\u003E \u003Ca href=\u0022https://badgefed.vocalcat.com/post/02-roadmap/\u0022\u003Ehere\u003C/a\u003E as well.\u003C/p\u003E ",
+  "url": "https://badgefed.vocalcat.com/post/02-roadmap/",
+  "attributedTo": "https://badgefed.vocalcat.com/socialweb/actor",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2025-03-31T16:27:54\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://hachyderm.io/users/mapache",
+      "Name": "\\@mapache@hachyderm.io"
+    }
+  ],
+  "replies": {
+    "id": "https://badgefed.vocalcat.com/socialweb/replies/482bd1f21be2fc401e8d8fb9b8483a53",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "https://badgefed.vocalcat.com/socialweb/replies/482bd1f21be2fc401e8d8fb9b8483a53?page=true",
+      "partOf": "https://badgefed.vocalcat.com/socialweb/replies/482bd1f21be2fc401e8d8fb9b8483a53",
+      "items": []
+    }
+  }
+}

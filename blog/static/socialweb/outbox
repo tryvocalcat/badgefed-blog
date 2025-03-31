@@ -3,8 +3,50 @@
   "id": "https://badgefed.vocalcat.com/socialweb/outbox",
   "type": "OrderedCollection",
   "summary": "Recent content on BadgeFed Official Blog",
-  "totalItems": 2,
+  "totalItems": 3,
   "orderedItems": [
+    {
+      "@context": "https://www.w3.org/ns/activitystreams",
+      "id": "https://badgefed.vocalcat.com/socialweb/notes/482bd1f21be2fc401e8d8fb9b8483a53/create",
+      "type": "Create",
+      "actor": "https://badgefed.vocalcat.com/socialweb/actor",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [],
+      "published": "2025-03-31T16:27:54\u002B00:00",
+      "object": {
+        "@context": "https://www.w3.org/ns/activitystreams",
+        "id": "https://badgefed.vocalcat.com/socialweb/notes/482bd1f21be2fc401e8d8fb9b8483a53",
+        "type": "Note",
+        "hash": "482bd1f21be2fc401e8d8fb9b8483a53",
+        "content": "\u003Cp\u003EHey Fediverse, we\u0026rsquo;ve got some exciting news\u2014BadgeFed is moving out of the prototype phase! That\u0026rsquo;s right, what started as a scrappy proof-of-concept is now becoming a real, structured, and (dare we say) polished federated badge system.\nAnd since we believe in working out in the open, we want to share our roadmap with you.\u003C/p\u003E\n\u003Ch2 id=\u0022the-big-three-priorities-\u0022\u003EThe Big Three Priorities \uD83C\uDFC6\u003C/h2\u003E\n\u003Cp\u003EWe\u0026rsquo;re focusing on three major areas to take BadgeFed from \u0026ldquo;hey, this kinda works\u0026rdquo; to \u0026ldquo;oh wow, this is actually usable.\u0026rdquo;\u003C/p\u003E\n\u003Ch3 id=\u00221-authentication-\u0022\u003E1. Authentication \uD83D\uDD10\u003C/h3\u003E\n\u003Cp\u003ERight now, logging in is a bit of a mess. So we\u0026rsquo;re tackling authentication properly, integrating OAuth so you can log in using your Mastodon (or other Fediverse) account.\nWe\u0026rsquo;re building this with .NET and Blazor because performance and scalability matter. Plus, no one wants to manage yet another username/password combo.\u003C/p\u003E\n\u003Ch3 id=\u00222-federation--spec-\u0022\u003E2. Federation \u0026amp; Spec \uD83C\uDF0D\u003C/h3\u003E\n\u003Cp\u003EWe\u0026rsquo;re making sure BadgeFed speaks ActivityPub fluently. Right now, federation kinda-sorta works, but we need to define a proper spec that makes badge issuing,\nearning, and verification seamless across different platforms. Whether you\u0026rsquo;re on Mastodon, Pleroma, or something else entirely, BadgeFed should just work.\nWe\u0026rsquo;re ironing out the kinks so badges travel as smoothly as your cat pictures. Also we want to support export and import from OpenBadges spec, and we need to do some experimentation on how this could travel on the fediverse.\u003C/p\u003E\n\u003Ch3 id=\u00223-packaging-docs-and-docker-\u0022\u003E3. Packaging, Docs, and Docker \uD83D\uDCE6\u003C/h3\u003E\n\u003Cp\u003EWhat\u0026rsquo;s cooler than a decentralized badge system? A decentralized badge system that\u0026rsquo;s easy to set up.\nWe\u0026rsquo;re working on clear documentation, making installation painless, and putting together a Docker container so you don\u0026rsquo;t have to wrestle with dependencies or even dotnet.\nOne command, and boom\u2014you\u0026rsquo;re federating badges like a pro.\u003C/p\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022the-would-be-nice-priorities-\u0022\u003EThe \u0026ldquo;Would Be Nice\u0026rdquo; Priorities \u2728\u003C/h2\u003E\n\u003Cp\u003EOnce the big three are solid, we\u0026rsquo;re setting our sights on some much-needed improvements:\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003E\u003Cstrong\u003EApproval Process \u0026amp; Expiration\u003C/strong\u003E \u2013 Not all badges should last forever. We\u0026rsquo;re adding controls for expiration dates and approval workflows.\u003C/li\u003E\n\u003Cli\u003E\u003Cstrong\u003EStats \u0026amp; Insights\u003C/strong\u003E \u2013 Want to see how many people are earning badges? We\u0026rsquo;ll be adding analytics to track adoption and engagement.\u003C/li\u003E\n\u003Cli\u003E\u003Cstrong\u003ECSS \u0026amp; UI/UX Love\u003C/strong\u003E \u2013 Let\u0026rsquo;s be honest, the prototype is functional, but it\u0026rsquo;s not winning any beauty contests. Expect smoother UI, better mobile support, and fewer \u0026ldquo;why is this button here?\u0026rdquo; moments.\u003C/li\u003E\n\u003Cli\u003E\u003Cstrong\u003ELanding Page\u003C/strong\u003E \u2013 BadgeFed deserves a proper introduction. A clean, informative landing page is in the works.\u003C/li\u003E\n\u003C/ul\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022whats-next-\u0022\u003EWhat\u0026rsquo;s Next? \uD83D\uDCC5\u003C/h2\u003E\n\u003Cp\u003EWe\u0026rsquo;re heads-down working on these priorities, but as always, feedback, ideas, and contributions are welcome.\nThis is an open-source project, and the best way to make sure it fits the needs of the Fediverse is to have the community involved.\u003C/p\u003E\n\u003Cp\u003EIf you want to help, hop into our discussions, check out the repo at \u003Ca href=\u0022https://github.com/tryvocalcat/badgefed\u0022\u003Ehttps://github.com/tryvocalcat/badgefed\u003C/a\u003E, or just share your thoughts. Let\u0026rsquo;s make federated badges a thing! \uD83C\uDFC5\u003C/p\u003E\n \u003Cbr /\u003E \u003Cp\u003EYou can read the article \u0022BadgeFed: From Prototype to Reality\u0022 by \u003Ca href=\u0022https://hachyderm.io/users/mapache\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Emapache\u003C/span\u003E\u003C/a\u003E \u003Ca href=\u0022https://badgefed.vocalcat.com/post/02-roadmap/\u0022\u003Ehere\u003C/a\u003E as well.\u003C/p\u003E ",
+        "url": "https://badgefed.vocalcat.com/post/02-roadmap/",
+        "attributedTo": "https://badgefed.vocalcat.com/socialweb/actor",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "cc": [],
+        "published": "2025-03-31T16:27:54\u002B00:00",
+        "tag": [
+          {
+            "Type": "Mention",
+            "Href": "https://hachyderm.io/users/mapache",
+            "Name": "\\@mapache@hachyderm.io"
+          }
+        ],
+        "replies": {
+          "id": "https://badgefed.vocalcat.com/socialweb/replies/482bd1f21be2fc401e8d8fb9b8483a53",
+          "type": "Collection",
+          "first": {
+            "type": "CollectionPage",
+            "next": "https://badgefed.vocalcat.com/socialweb/replies/482bd1f21be2fc401e8d8fb9b8483a53?page=true",
+            "partOf": "https://badgefed.vocalcat.com/socialweb/replies/482bd1f21be2fc401e8d8fb9b8483a53",
+            "items": []
+          }
+        }
+      }
+    },
     {
       "@context": "https://www.w3.org/ns/activitystreams",
       "id": "https://badgefed.vocalcat.com/socialweb/notes/cb3d90803f2cfa250a53e04e6ba74665/create",
@@ -14,20 +56,20 @@
         "https://www.w3.org/ns/activitystreams#Public"
       ],
       "cc": [],
-      "published": "2023-03-30T20:27:54\u002B00:00",
+      "published": "2025-03-30T20:27:54\u002B00:00",
       "object": {
         "@context": "https://www.w3.org/ns/activitystreams",
         "id": "https://badgefed.vocalcat.com/socialweb/notes/cb3d90803f2cfa250a53e04e6ba74665",
         "type": "Note",
         "hash": "cb3d90803f2cfa250a53e04e6ba74665",
-        "content": "In the ever-evolving world of digital credentials, we\u2019ve seen centralized platforms like Credly dominate the badge and certification space. But what if we could flip the script? What if badges could be decentralized, self-certified, and issued directly by organizations in the Fediverse?\nBy reusing the social graph already present in the Fediverse, we can enable a seamless integration of badges into the networks people are already part of. Instead of creating new, siloed systems for certification, we can utilize the trusted connections and relationships within platforms like Mastodon to issue and verify badges. \u003Cbr /\u003E \u003Cp\u003EYou can read the article \u0022Introducing a Minimalistic ActivityPub Badge System: Decentralized, Verified, and Built for the Fediverse\u0022 by \u003Ca href=\u0022https://hachyderm.io/users/mapache\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Emapache\u003C/span\u003E\u003C/a\u003E \u003Ca href=\u0022https://badgefed.vocalcat.com/post/01-init/\u0022\u003Ehere\u003C/a\u003E as well.\u003C/p\u003E ",
+        "content": "\u003Cp\u003EIn the ever-evolving world of digital credentials, we\u2019ve seen centralized platforms like Credly dominate the badge and certification space.\nBut what if we could flip the script? What if badges could be decentralized, self-certified, and issued directly by organizations in the Fediverse?\u003C/p\u003E\n\u003Cp\u003EBy reusing the social graph already present in the Fediverse, we can enable a seamless integration of badges into the networks people are already part of.\nInstead of creating new, siloed systems for certification, we can utilize the trusted connections and relationships within platforms like Mastodon to issue and verify badges.\nIt\u2019s about making the credentialing process as decentralized and open as the social interactions we have online today.\u003C/p\u003E\n\u003Cp\u003EThat\u0026rsquo;s exactly what I\u0026rsquo;m working on with my latest project: a minimalistic ActivityPub implementation for badges, built using #dotnet.\u003C/p\u003E\n\u003Ch2 id=\u0022the-problem-with-traditional-badge-systems\u0022\u003EThe Problem with Traditional Badge Systems\u003C/h2\u003E\n\u003Cp\u003EIt\u2019s mind-blowing that major organizations\u2014think Microsoft, Non-Profits, and educational institutions\u2014spend thousands of dollars on badge providers like Pearson just to get a \u0026ldquo;verified\u0026rdquo; badge.\nThese badges, while useful, are locked into centralized platforms that limit the potential for genuine, open verification systems.\u003C/p\u003E\n\u003Cp\u003EWhat if badges could be as decentralized as social media profiles? Imagine organizations running their own badge systems\u2014similar to the way social media instances like Mastodon operate in the Fediverse.\nThink about a domain-based badge system like \u003Ccode\u003Ebadges.mozilla.com\u003C/code\u003E, or a school district offering badges at \u003Ccode\u003Ecertifications.myschooldistrict.com\u003C/code\u003E. Even a podcast could issue badges to its guests, with the entire verification happening directly within the domain.\u003C/p\u003E\n\u003Ch2 id=\u0022why-activitypub\u0022\u003EWhy ActivityPub?\u003C/h2\u003E\n\u003Cp\u003EActivityPub is already a powerful protocol for secure, decentralized communication between actors in the Fediverse.\nIt enables us to create verifiable interactions and sign digital artifacts in a way that was previously the domain of a few centralized certificate authorities.\nWith ActivityPub, we can extend this to badges, allowing people and organizations to interact with verified credentials in the same decentralized way that we share posts,\nfollows, and interactions across Mastodon or any other Fediverse platform.\u003C/p\u003E\n\u003Cp\u003EThink about how LetsEncrypt disrupted the centralized SSL certificate market. Now, with a decentralized badge system, we can enable a similar revolution for verified credentials.\u003C/p\u003E\n\u003Ch2 id=\u0022the-project-so-far\u0022\u003EThe Project So Far\u003C/h2\u003E\n\u003Cp\u003EI\u2019ve made some solid progress, and there\u2019s now a functional proof of concept (PoC) in place. The project is live and can be found here: \u003Ca href=\u0022https://github.com/tryvocalcat/activitypub-badges\u0022\u003EActivityPub Badges on GitHub\u003C/a\u003E.\u003C/p\u003E\n\u003Cp\u003EThis fediverse actor, the badges issuer, isn\u2019t a Mastodon instance, a Pleroma, or a blog\u2014it\u2019s an actor in a badge system. You can follow it on Mastodon, but its badges are not microblogging notes.\nInstead, think of it as a way to display verified credentials directly from a decentralized source.\u003C/p\u003E\n\u003Cp\u003EHere\u2019s the first badge I\u2019ve issued:\u003C/p\u003E\n\u003Cp\u003E\u003Ca href=\u0022https://badges.vocalcat.com/record/10\u0022\u003EFirst Badge: View on Mastodon\u003C/a\u003E\u003C/p\u003E\n\u003Cp\u003ESimply copy and paste the URL and open it in your Mastodon client. The badge will show up as a note, and you can celebrate, comment, or share it within your ActivityPub network.\nThis is how the badge system will work\u2014just like social media, but with credentials!\u003C/p\u003E\n\u003Ch2 id=\u0022a-decentralized-future-for-badges\u0022\u003EA Decentralized Future for Badges\u003C/h2\u003E\n\u003Cp\u003EThe ultimate goal is to create a decentralized badge system where different instances of badge issuers will recognize each other\u2019s certifications.\nThis way, even if a certificate issuer disappears, the credential is still secure and verifiable across the network.\nImagine the survivability of certificates in such a system\u2014if your issuer disappears, the credential still exists in a federated, decentralized space.\u003C/p\u003E\n\u003Cp\u003EIt\u2019s an exciting future, and I\u2019m just getting started. If you want to learn more about the progress of this project, follow me, or check out the GitHub repo. (Btw, I am not a Mastodon account, or a BadgeFed system, I am a static site).\u003C/p\u003E\n\u003Cp\u003ELet\u2019s create a future where verification is decentralized, secure, and open for everyone.\u003C/p\u003E\n\u003Ch2 id=\u0022early-adopter-badge-who-wants-one\u0022\u003EEarly Adopter Badge: Who Wants One?\u003C/h2\u003E\n\u003Cp\u003EAs with any new project, there\u2019s always room for early adopters. If you\u2019re interested in getting your own badge, let me know! Follow the progress and get involved as we continue to build this decentralized badge system.\u003C/p\u003E\n\u003Chr\u003E\n\u003Cp\u003EFeel free to share your thoughts, questions, and comments. Badge up, own your credentials, and let the Fediverse showcase your achievements.\u003C/p\u003E\n \u003Cbr /\u003E \u003Cp\u003EYou can read the article \u0022Introducing a Minimalistic ActivityPub Badge System: Decentralized, Verified, and Built for the Fediverse\u0022 by \u003Ca href=\u0022https://hachyderm.io/users/mapache\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Emapache\u003C/span\u003E\u003C/a\u003E \u003Ca href=\u0022https://badgefed.vocalcat.com/post/01-init/\u0022\u003Ehere\u003C/a\u003E as well.\u003C/p\u003E ",
         "url": "https://badgefed.vocalcat.com/post/01-init/",
         "attributedTo": "https://badgefed.vocalcat.com/socialweb/actor",
         "to": [
           "https://www.w3.org/ns/activitystreams#Public"
         ],
         "cc": [],
-        "published": "2023-03-30T20:27:54\u002B00:00",
+        "published": "2025-03-30T20:27:54\u002B00:00",
         "tag": [
           {
             "Type": "Mention",
@@ -56,7 +98,7 @@
         "https://www.w3.org/ns/activitystreams#Public"
       ],
       "cc": [],
-      "published": "2023-03-30T18:27:54\u002B00:00",
+      "published": "2025-03-30T18:27:54\u002B00:00",
       "object": {
         "@context": "https://www.w3.org/ns/activitystreams",
         "id": "https://badgefed.vocalcat.com/socialweb/notes/a108bfcef9fb4b87b41ac06b3da35945",
@@ -69,7 +111,7 @@
           "https://www.w3.org/ns/activitystreams#Public"
         ],
         "cc": [],
-        "published": "2023-03-30T18:27:54\u002B00:00",
+        "published": "2025-03-30T18:27:54\u002B00:00",
         "tag": [
           {
             "Type": "Mention",
