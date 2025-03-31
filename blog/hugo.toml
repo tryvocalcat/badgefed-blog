@@ -2,17 +2,25 @@ baseURL='https://badgefed.vocalcat.com/'
 languageCode = 'en-us'
 title = 'BadgeFed Official Blog'
 theme = 'PaperMod'
-
 buildFuture = true
 buildExpired = true
 
 mainsections = ["post"]
+
+enableInlineShortcodes= true
+enableEmoji=true
 
 [[menu.main]]
 name = "Home"
 weight=10
 identifier="home"
 url = "/"
+
+[[menu.main]]
+name = "Posts"
+weight=10
+identifier="posts"
+url = "/post"
 
 [params]
 title = 'BadgeFed Blog'
@@ -21,3 +29,28 @@ description = "Empowering decentralized credentialing in the Fediverse through o
 fediverseHandle='@badgefed@vocalcat.com'
 comments=true
 showFullTextinRSS=true
+showShareButtons=false
+showPostNavLinks=true
+showCodeCopyButtons=true
+showBreadCrumbs=true
+showRssButtonInSectionsTermList=true
+showAllPagesInArchive=true
+showPageNumbs=true
+images = ["images/avatar.png"]
+
+[params.profileMode]
+enabled = true
+title = "BadgeFed Official Blog"
+subtitle = "Empowering decentralized credentialing in the Fediverse through open-source innovation."
+imageUrl = "images/avatar.png"
+imageTitle = "BadgeFed Logo"
+imageWidth = 120
+imageHeight = 120
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "post"
+
+[[params.profileMode.buttons]]
+name = "GitHub Repo"
+url = "https://github.com/tryvocalcat/activitypub-badges"
