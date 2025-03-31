@@ -1,0 +1,39 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "https://vocalcat.com/socialweb/actor",
+  "type": "Person",
+  "following": "https://vocalcat.com/socialweb/following",
+  "followers": "https://vocalcat.com/socialweb/followers",
+  "inbox": "https://func-lsmukthfdluxo.azurewebsites.net/api/Inbox",
+  "outbox": "https://vocalcat.com/socialweb/outbox",
+  "preferredUsername": "badgefed",
+  "name": "My blog name",
+  "summary": "A new static site ready for the Fediverse!",
+  "url": "https://vocalcat.com/",
+  "discoverable": true,
+  "memorial": false,
+  "icon": {
+    "type": "Image",
+    "mediaType": "image/png",
+    "url": "https://vocalcat.com/images/avatar.png"
+  },
+  "image": {
+    "type": "Image",
+    "mediaType": "image/png",
+    "url": "https://vocalcat.com/images/avatar.png"
+  },
+  "publicKey": {
+    "@context": "https://w3id.org/security/v1",
+    "@type": "Key",
+    "id": "https://vocalcat.com/socialweb/actor#main-key",
+    "owner": "https://vocalcat.com/socialweb/actor",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6SJZYaG4Tk9YPWa325Oe\nzMfsSL6+AF63ANxpTi1mwTsEkQLKo0LCdvAptxozq14LGqrThh5CUdGFTws9JoFb\nGCNHB13DpQ+ERGg/ssTXohbv/gxUNECV9JE8d6Iqkgyou96d8gTQnpZeNrCowYA6\nZi24gUlWyKp10QkoDSzs4BiuZMX8fXIysG5p5xnhKTjKTaRFuqflDYyQsfdfXNWl\nNp87HcyLjSlBFhHz5CW+UNqJpRaTFeP2PZFoTCb+eDV/4O5N9bi75nRiINZ/7OHJ\ngq5Eo8qtlxoOd3duFJ1utSXBsh7UETOrXH6zPZ1JPed7/ucPs/TnsqETa/Kin+oj\njwIDAQAB\n-----END PUBLIC KEY-----"
+  },
+  "attachment": [
+    {
+      "type": "PropertyValue",
+      "name": "Blog",
+      "value": "<a href=\"https://vocalcat.com/\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">Blog</span><span class=\"invisible\"></span></a>"
+    }
+  ]
+}
