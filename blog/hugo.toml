@@ -21,7 +21,3 @@ description = "Empowering decentralized credentialing in the Fediverse through o
 fediverseHandle='@badgefed@vocalcat.com'
 comments=true
 showFullTextinRSS=true
-
-[[params.socialIcons.rss]]
-name= "rss"
-url="https://badgefed.vocalcat.com/index.html"

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Identity on BadgeFed Official Blog</title>
+    <link>https://badgefed.vocalcat.com/tags/identity/</link>
+    <description>Recent content in Identity on BadgeFed Official Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Mar 2025 16:27:54 +0000</lastBuildDate>
+    <atom:link href="https://badgefed.vocalcat.com/tags/identity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BadgeFed: From Prototype to Reality</title>
+      <link>https://badgefed.vocalcat.com/post/02-roadmap/</link>
+      <pubDate>Mon, 31 Mar 2025 16:27:54 +0000</pubDate>
+      <guid>https://badgefed.vocalcat.com/post/02-roadmap/</guid>
+      <description>&lt;p&gt;Hey Fediverse, we&amp;rsquo;ve got some exciting news—BadgeFed is moving out of the prototype phase! That&amp;rsquo;s right, what started as a scrappy proof-of-concept is now becoming a real, structured, and (dare we say) polished federated badge system.
+And since we believe in working out in the open, we want to share our roadmap with you.&lt;/p&gt;
+&lt;h2 id=&#34;the-big-three-priorities-&#34;&gt;The Big Three Priorities 🏆&lt;/h2&gt;
+&lt;p&gt;We&amp;rsquo;re focusing on three major areas to take BadgeFed from &amp;ldquo;hey, this kinda works&amp;rdquo; to &amp;ldquo;oh wow, this is actually usable.&amp;rdquo;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Hey Fediverse, we&rsquo;ve got some exciting news—BadgeFed is moving out of the prototype phase! That&rsquo;s right, what started as a scrappy proof-of-concept is now becoming a real, structured, and (dare we say) polished federated badge system.
+And since we believe in working out in the open, we want to share our roadmap with you.</p>
+<h2 id="the-big-three-priorities-">The Big Three Priorities 🏆</h2>
+<p>We&rsquo;re focusing on three major areas to take BadgeFed from &ldquo;hey, this kinda works&rdquo; to &ldquo;oh wow, this is actually usable.&rdquo;</p>
+<h3 id="1-authentication-">1. Authentication 🔐</h3>
+<p>Right now, logging in is a bit of a mess. So we&rsquo;re tackling authentication properly, integrating OAuth so you can log in using your Mastodon (or other Fediverse) account.
+We&rsquo;re building this with .NET and Blazor because performance and scalability matter. Plus, no one wants to manage yet another username/password combo.</p>
+<h3 id="2-federation--spec-">2. Federation &amp; Spec 🌍</h3>
+<p>We&rsquo;re making sure BadgeFed speaks ActivityPub fluently. Right now, federation kinda-sorta works, but we need to define a proper spec that makes badge issuing,
+earning, and verification seamless across different platforms. Whether you&rsquo;re on Mastodon, Pleroma, or something else entirely, BadgeFed should just work.
+We&rsquo;re ironing out the kinks so badges travel as smoothly as your cat pictures. Also we want to support export and import from OpenBadges spec, and we need to do some experimentation on how this could travel on the fediverse.</p>
+<h3 id="3-packaging-docs-and-docker-">3. Packaging, Docs, and Docker 📦</h3>
+<p>What&rsquo;s cooler than a decentralized badge system? A decentralized badge system that&rsquo;s easy to set up.
+We&rsquo;re working on clear documentation, making installation painless, and putting together a Docker container so you don&rsquo;t have to wrestle with dependencies or even dotnet.
+One command, and boom—you&rsquo;re federating badges like a pro.</p>
+<hr>
+<h2 id="the-would-be-nice-priorities-">The &ldquo;Would Be Nice&rdquo; Priorities ✨</h2>
+<p>Once the big three are solid, we&rsquo;re setting our sights on some much-needed improvements:</p>
+<ul>
+<li><strong>Approval Process &amp; Expiration</strong> – Not all badges should last forever. We&rsquo;re adding controls for expiration dates and approval workflows.</li>
+<li><strong>Stats &amp; Insights</strong> – Want to see how many people are earning badges? We&rsquo;ll be adding analytics to track adoption and engagement.</li>
+<li><strong>CSS &amp; UI/UX Love</strong> – Let&rsquo;s be honest, the prototype is functional, but it&rsquo;s not winning any beauty contests. Expect smoother UI, better mobile support, and fewer &ldquo;why is this button here?&rdquo; moments.</li>
+<li><strong>Landing Page</strong> – BadgeFed deserves a proper introduction. A clean, informative landing page is in the works.</li>
+</ul>
+<hr>
+<h2 id="whats-next-">What&rsquo;s Next? 📅</h2>
+<p>We&rsquo;re heads-down working on these priorities, but as always, feedback, ideas, and contributions are welcome.
+This is an open-source project, and the best way to make sure it fits the needs of the Fediverse is to have the community involved.</p>
+<p>If you want to help, hop into our discussions, check out the repo at <a href="https://github.com/tryvocalcat/badgefed">https://github.com/tryvocalcat/badgefed</a>, or just share your thoughts. Let&rsquo;s make federated badges a thing! 🏅</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

@@ -4,36 +4,71 @@
     <title>Tags on BadgeFed Official Blog</title>
     <link>https://badgefed.vocalcat.com/tags/</link>
     <description>Recent content in Tags on BadgeFed Official Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Mar 2023 20:27:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2025 16:27:54 +0000</lastBuildDate>
     <atom:link href="https://badgefed.vocalcat.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Activitypub</title>
       <link>https://badgefed.vocalcat.com/tags/activitypub/</link>
-      <pubDate>Thu, 30 Mar 2023 20:27:54 +0000</pubDate>
+      <pubDate>Mon, 31 Mar 2025 16:27:54 +0000</pubDate>
       <guid>https://badgefed.vocalcat.com/tags/activitypub/</guid>
       <description></description>
     </item>
     <item>
-      <title>Badfeded</title>
-      <link>https://badgefed.vocalcat.com/tags/badfeded/</link>
-      <pubDate>Thu, 30 Mar 2023 20:27:54 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/tags/badfeded/</guid>
+      <title>Badgefed</title>
+      <link>https://badgefed.vocalcat.com/tags/badgefed/</link>
+      <pubDate>Mon, 31 Mar 2025 16:27:54 +0000</pubDate>
+      <guid>https://badgefed.vocalcat.com/tags/badgefed/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decentralization</title>
+      <link>https://badgefed.vocalcat.com/tags/decentralization/</link>
+      <pubDate>Mon, 31 Mar 2025 16:27:54 +0000</pubDate>
+      <guid>https://badgefed.vocalcat.com/tags/decentralization/</guid>
       <description></description>
     </item>
     <item>
       <title>Dotnet</title>
       <link>https://badgefed.vocalcat.com/tags/dotnet/</link>
-      <pubDate>Thu, 30 Mar 2023 20:27:54 +0000</pubDate>
+      <pubDate>Mon, 31 Mar 2025 16:27:54 +0000</pubDate>
       <guid>https://badgefed.vocalcat.com/tags/dotnet/</guid>
       <description></description>
     </item>
     <item>
       <title>Fediverse</title>
       <link>https://badgefed.vocalcat.com/tags/fediverse/</link>
-      <pubDate>Thu, 30 Mar 2023 20:27:54 +0000</pubDate>
+      <pubDate>Mon, 31 Mar 2025 16:27:54 +0000</pubDate>
       <guid>https://badgefed.vocalcat.com/tags/fediverse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Identity</title>
+      <link>https://badgefed.vocalcat.com/tags/identity/</link>
+      <pubDate>Mon, 31 Mar 2025 16:27:54 +0000</pubDate>
+      <guid>https://badgefed.vocalcat.com/tags/identity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Source</title>
+      <link>https://badgefed.vocalcat.com/tags/open-source/</link>
+      <pubDate>Mon, 31 Mar 2025 16:27:54 +0000</pubDate>
+      <guid>https://badgefed.vocalcat.com/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Roadmap</title>
+      <link>https://badgefed.vocalcat.com/tags/roadmap/</link>
+      <pubDate>Mon, 31 Mar 2025 16:27:54 +0000</pubDate>
+      <guid>https://badgefed.vocalcat.com/tags/roadmap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Badfeded</title>
+      <link>https://badgefed.vocalcat.com/tags/badfeded/</link>
+      <pubDate>Sun, 30 Mar 2025 20:27:54 +0000</pubDate>
+      <guid>https://badgefed.vocalcat.com/tags/badfeded/</guid>
       <description></description>
     </item>
   </channel>
