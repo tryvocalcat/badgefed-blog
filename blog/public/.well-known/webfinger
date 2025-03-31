@@ -1,13 +1,13 @@
 {
-  "subject": "acct:badgefed@vocalcat.com",
+  "subject": "acct:badgefed@badgefed.vocalcat.com",
   "aliases": [
-    "https://vocalcat.com/socialweb/actor"
+    "https://badgefed.vocalcat.com/socialweb/actor"
   ],
   "links": [
     {
       "rel": "self",
       "type": "application/activity+json",
-      "href": "https://vocalcat.com/socialweb/actor"
+      "href": "https://badgefed.vocalcat.com/socialweb/actor"
     }
   ]
 }
