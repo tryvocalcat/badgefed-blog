@@ -3,7 +3,7 @@
   "id": "https://badgefed.vocalcat.com/socialweb/notes/a108bfcef9fb4b87b41ac06b3da35945",
   "type": "Note",
   "hash": "a108bfcef9fb4b87b41ac06b3da35945",
-  "content": " \u003Cbr /\u003E \u003Cp\u003EYou can read the article \u0022Hello Fediverse!\u0022 by \u003Ca href=\u0022https://hachyderm.io/users/mapache\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Emapache\u003C/span\u003E\u003C/a\u003E \u003Ca href=\u0022https://badgefed.vocalcat.com/post/hello-world/\u0022\u003Ehere\u003C/a\u003E as well.\u003C/p\u003E ",
+  "content": " \u003Cbr /\u003E \u003Cp\u003EYou can read the article \u0022Hello Fediverse!\u0022 by \u003Ca href=\u0022https://hachyderm.io/users/mapache\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Emapache\u003C/span\u003E\u003C/a\u003E \u003Ca href=\u0022https://badgefed.vocalcat.com/post/hello-world/\u0022\u003Ehere\u003C/a\u003E as well.\u003C/p\u003E  \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/activitypub\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eactivitypub\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/badfeded\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Ebadfeded\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/fediverse\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Efediverse\u003C/span\u003E\u003C/a\u003E",
   "url": "https://badgefed.vocalcat.com/post/hello-world/",
   "attributedTo": "https://badgefed.vocalcat.com/socialweb/actor",
   "to": [
@@ -16,6 +16,21 @@
       "Type": "Mention",
       "Href": "https://hachyderm.io/users/mapache",
       "Name": "\\@mapache@hachyderm.io"
+    },
+    {
+      "Type": "Hashtag",
+      "Href": "https://badgefed.vocalcat.com/tags/activitypub",
+      "Name": "#activitypub"
+    },
+    {
+      "Type": "Hashtag",
+      "Href": "https://badgefed.vocalcat.com/tags/badfeded",
+      "Name": "#badfeded"
+    },
+    {
+      "Type": "Hashtag",
+      "Href": "https://badgefed.vocalcat.com/tags/fediverse",
+      "Name": "#fediverse"
     }
   ],
   "replies": {
