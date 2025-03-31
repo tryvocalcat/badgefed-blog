@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Badfeded on BadgeFed Official Blog</title>
-    <link>https://badgefed.vocalcat.com/tags/badfeded/</link>
-    <description>Recent content in Badfeded on BadgeFed Official Blog</description>
+    <title>Dotnet on BadgeFed Official Blog</title>
+    <link>https://badgefed.vocalcat.com/tags/dotnet/</link>
+    <description>Recent content in Dotnet on BadgeFed Official Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Mar 2023 20:27:54 +0000</lastBuildDate>
-    <atom:link href="https://badgefed.vocalcat.com/tags/badfeded/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://badgefed.vocalcat.com/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing a Minimalistic ActivityPub Badge System</title>
       <link>https://badgefed.vocalcat.com/post/01-init/</link>
@@ -15,13 +15,6 @@
       <guid>https://badgefed.vocalcat.com/post/01-init/</guid>
       <description>Introducing a Minimalistic ActivityPub Badge System: Decentralized, Verified, and Built for the Fediverse In the ever-evolving world of digital credentials, we’ve seen centralized platforms like Credly dominate the badge and certification space. But what if we could flip the script? What if badges could be decentralized, self-certified, and issued directly by organizations in the Fediverse?
 By reusing the social graph already present in the Fediverse, we can enable a seamless integration of badges into the networks people are already part of.</description>
-    </item>
-    <item>
-      <title>Hello Fediverse!</title>
-      <link>https://badgefed.vocalcat.com/post/hello-world/</link>
-      <pubDate>Thu, 30 Mar 2023 18:27:54 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/post/hello-world/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
