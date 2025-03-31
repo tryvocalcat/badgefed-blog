@@ -4,6 +4,11 @@
     <title>Open-Source on BadgeFed Official Blog</title>
     <link>https://badgefed.vocalcat.com/tags/open-source/</link>
     <description>Recent content in Open-Source on BadgeFed Official Blog</description>
+    <image>
+      <title>BadgeFed Official Blog</title>
+      <url>https://badgefed.vocalcat.com/images/avatar.png</url>
+      <link>https://badgefed.vocalcat.com/images/avatar.png</link>
+    </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 31 Mar 2025 16:27:54 +0000</lastBuildDate>

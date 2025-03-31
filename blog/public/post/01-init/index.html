@@ -73,7 +73,9 @@ By reusing the social graph already present in the Fediverse, we can enable a se
     <meta property="article:tag" content="Badfeded">
     <meta property="article:tag" content="Fediverse">
     <meta property="article:tag" content="Dotnet">
-<meta name="twitter:card" content="summary">
+      <meta property="og:image" content="https://badgefed.vocalcat.com/images/avatar.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://badgefed.vocalcat.com/images/avatar.png">
 <meta name="twitter:title" content="Introducing a Minimalistic ActivityPub Badge System: Decentralized, Verified, and Built for the Fediverse">
 <meta name="twitter:description" content="In the ever-evolving world of digital credentials, we’ve seen centralized platforms like Credly dominate the badge and certification space.
 But what if we could flip the script? What if badges could be decentralized, self-certified, and issued directly by organizations in the Fediverse?
@@ -115,7 +117,7 @@ It’s about making the credentialing process as decentralized and open as the s
   "articleBody": "In the ever-evolving world of digital credentials, we’ve seen centralized platforms like Credly dominate the badge and certification space. But what if we could flip the script? What if badges could be decentralized, self-certified, and issued directly by organizations in the Fediverse?\nBy reusing the social graph already present in the Fediverse, we can enable a seamless integration of badges into the networks people are already part of. Instead of creating new, siloed systems for certification, we can utilize the trusted connections and relationships within platforms like Mastodon to issue and verify badges. It’s about making the credentialing process as decentralized and open as the social interactions we have online today.\nThat’s exactly what I’m working on with my latest project: a minimalistic ActivityPub implementation for badges, built using #dotnet.\nThe Problem with Traditional Badge Systems It’s mind-blowing that major organizations—think Microsoft, Non-Profits, and educational institutions—spend thousands of dollars on badge providers like Pearson just to get a “verified” badge. These badges, while useful, are locked into centralized platforms that limit the potential for genuine, open verification systems.\nWhat if badges could be as decentralized as social media profiles? Imagine organizations running their own badge systems—similar to the way social media instances like Mastodon operate in the Fediverse. Think about a domain-based badge system like badges.mozilla.com, or a school district offering badges at certifications.myschooldistrict.com. Even a podcast could issue badges to its guests, with the entire verification happening directly within the domain.\nWhy ActivityPub? ActivityPub is already a powerful protocol for secure, decentralized communication between actors in the Fediverse. It enables us to create verifiable interactions and sign digital artifacts in a way that was previously the domain of a few centralized certificate authorities. With ActivityPub, we can extend this to badges, allowing people and organizations to interact with verified credentials in the same decentralized way that we share posts, follows, and interactions across Mastodon or any other Fediverse platform.\nThink about how LetsEncrypt disrupted the centralized SSL certificate market. Now, with a decentralized badge system, we can enable a similar revolution for verified credentials.\nThe Project So Far I’ve made some solid progress, and there’s now a functional proof of concept (PoC) in place. The project is live and can be found here: ActivityPub Badges on GitHub.\nThis fediverse actor, the badges issuer, isn’t a Mastodon instance, a Pleroma, or a blog—it’s an actor in a badge system. You can follow it on Mastodon, but its badges are not microblogging notes. Instead, think of it as a way to display verified credentials directly from a decentralized source.\nHere’s the first badge I’ve issued:\nFirst Badge: View on Mastodon\nSimply copy and paste the URL and open it in your Mastodon client. The badge will show up as a note, and you can celebrate, comment, or share it within your ActivityPub network. This is how the badge system will work—just like social media, but with credentials!\nA Decentralized Future for Badges The ultimate goal is to create a decentralized badge system where different instances of badge issuers will recognize each other’s certifications. This way, even if a certificate issuer disappears, the credential is still secure and verifiable across the network. Imagine the survivability of certificates in such a system—if your issuer disappears, the credential still exists in a federated, decentralized space.\nIt’s an exciting future, and I’m just getting started. If you want to learn more about the progress of this project, follow me, or check out the GitHub repo. (Btw, I am not a Mastodon account, or a BadgeFed system, I am a static site).\nLet’s create a future where verification is decentralized, secure, and open for everyone.\nEarly Adopter Badge: Who Wants One? As with any new project, there’s always room for early adopters. If you’re interested in getting your own badge, let me know! Follow the progress and get involved as we continue to build this decentralized badge system.\nFeel free to share your thoughts, questions, and comments. Badge up, own your credentials, and let the Fediverse showcase your achievements.\n",
   "wordCount" : "673",
   "inLanguage": "en",
-  "datePublished": "2025-03-30T20:27:54Z",
+  "image": "https://badgefed.vocalcat.com/images/avatar.png","datePublished": "2025-03-30T20:27:54Z",
   "dateModified": "2025-03-30T20:27:54Z",
   "author":{
     "@type": "Person",
@@ -182,6 +184,11 @@ It’s about making the credentialing process as decentralized and open as the s
                     <span>Home</span>
                 </a>
             </li>
+            <li>
+                <a href="https://badgefed.vocalcat.com/post" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -189,7 +196,7 @@ It’s about making the credentialing process as decentralized and open as the s
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="https://badgefed.vocalcat.com/">Home</a>&nbsp;»&nbsp;<a href="https://badgefed.vocalcat.com/post/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Introducing a Minimalistic ActivityPub Badge System: Decentralized, Verified, and Built for the Fediverse
     </h1>
@@ -243,6 +250,19 @@ Imagine the survivability of certificates in such a system—if your issuer disa
       <li><a href="https://badgefed.vocalcat.com/tags/fediverse/">Fediverse</a></li>
       <li><a href="https://badgefed.vocalcat.com/tags/dotnet/">Dotnet</a></li>
     </ul>
+<nav class="paginav">
+  <a class="prev" href="https://badgefed.vocalcat.com/post/02-roadmap/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>BadgeFed: From Prototype to Reality</span>
+  </a>
+  <a class="next" href="https://badgefed.vocalcat.com/post/hello-world/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Hello Fediverse!</span>
+  </a>
+</nav>
+
   </footer><div>
     <h3>Comments</h3>
     <p>
@@ -532,6 +552,53 @@ Imagine the survivability of certificates in such a system—if your issuer disa
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 
