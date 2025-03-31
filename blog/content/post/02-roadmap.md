@@ -1,6 +1,6 @@
 +++
 title = 'BadgeFed: From Prototype to Reality'
-date = 2023-03-31T16:27:54Z
+date = 2025-03-31T16:27:54Z
 draft = false
 tags = ["activitypub", "badgefed", "fediverse", "dotnet", "decentralization", "open-source", "identity", "roadmap"]
 author="Maho Pacheco"
