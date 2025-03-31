@@ -1,4 +1,4 @@
-baseURL = 'https://myblogstatic.z22.web.core.windows.net/'
+baseURL='https://blogc3mm3g2jhkes6.z22.web.core.windows.net/'
 languageCode = 'en-us'
 title = 'My New Hugo Site enabled for the Fediverse!'
 theme = 'PaperMod'
@@ -19,7 +19,8 @@ url = "/"
 title = 'My New Hugo Site enabled for the Fediverse!'
 author = 'Me'
 description = "A static site fediverse enabled by activitypub!"
-github="mahomedalid"
+fediverseHandle="MYFEDIVERSEHANDLE"
+comments=true
 
 [[deployment.targets]]
 name = "azure"
