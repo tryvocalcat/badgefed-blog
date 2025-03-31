@@ -9,12 +9,12 @@
     <lastBuildDate>Thu, 30 Mar 2023 20:27:54 +0000</lastBuildDate>
     <atom:link href="https://badgefed.vocalcat.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Introducing a Minimalistic ActivityPub Badge System</title>
+      <title>Introducing a Minimalistic ActivityPub Badge System: Decentralized, Verified, and Built for the Fediverse</title>
       <link>https://badgefed.vocalcat.com/post/01-init/</link>
       <pubDate>Thu, 30 Mar 2023 20:27:54 +0000</pubDate>
       <guid>https://badgefed.vocalcat.com/post/01-init/</guid>
-      <description>Introducing a Minimalistic ActivityPub Badge System: Decentralized, Verified, and Built for the Fediverse In the ever-evolving world of digital credentials, we’ve seen centralized platforms like Credly dominate the badge and certification space. But what if we could flip the script? What if badges could be decentralized, self-certified, and issued directly by organizations in the Fediverse?
-By reusing the social graph already present in the Fediverse, we can enable a seamless integration of badges into the networks people are already part of.</description>
+      <description>In the ever-evolving world of digital credentials, we’ve seen centralized platforms like Credly dominate the badge and certification space. But what if we could flip the script? What if badges could be decentralized, self-certified, and issued directly by organizations in the Fediverse?
+By reusing the social graph already present in the Fediverse, we can enable a seamless integration of badges into the networks people are already part of. Instead of creating new, siloed systems for certification, we can utilize the trusted connections and relationships within platforms like Mastodon to issue and verify badges.</description>
     </item>
     <item>
       <title>Hello Fediverse!</title>
