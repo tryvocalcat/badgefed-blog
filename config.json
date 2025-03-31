@@ -1,5 +1,5 @@
 {
-  "baseDomain": "https://vocalcat.com/",
+  "baseDomain": "https://badgefed.vocalcat.com/",
   "actorName": "badgefed",
   "inboxEndpoint": "https://func-lsmukthfdluxo.azurewebsites.net/api/Inbox",
   "authorUsername": "@mapache@hachyderm.io"

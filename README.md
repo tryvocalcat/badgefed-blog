@@ -8,3 +8,5 @@ This blog can be reached at [https://blogc3mm3g2jhkes6.z22.web.core.windows.net/
 This blog can be followed in the fediverse by @blog@badgefedblog.vocalcat.com
 
 This blog can be followed in the fediverse by @blog@vocalcat.com
+
+This blog can be followed in the fediverse by @blog@badgefed.vocalcat.com
