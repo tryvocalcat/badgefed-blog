@@ -15,12 +15,12 @@
   "icon": {
     "type": "Image",
     "mediaType": "image/png",
-    "url": "https://badgefed.vocalcat.com/images/avatar.png"
+    "url": "https://badgefed.vocalcat.com/images/avatarsocial.png"
   },
   "image": {
     "type": "Image",
     "mediaType": "image/png",
-    "url": "https://badgefed.vocalcat.com/images/avatar.png"
+    "url": "https://badgefed.vocalcat.com/images/avatarsocial.png"
   },
   "publicKey": {
     "@context": "https://w3id.org/security/v1",
