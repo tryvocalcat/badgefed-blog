@@ -3,7 +3,7 @@
   "id": "https://badgefed.vocalcat.com/socialweb/actor",
   "type": "Person",
   "following": "https://badgefed.vocalcat.com/socialweb/following",
-  "followers": "https://blogc3mm3g2jhkes6.blob.core.windows.net/$web/socialweb/followers",
+  "followers": "https://blogc3mm3g2jhkes6.z22.web.core.windows.net/socialweb/followers",
   "inbox": "https://func-lsmukthfdluxo.azurewebsites.net/api/Inbox",
   "outbox": "https://badgefed.vocalcat.com/socialweb/outbox",
   "preferredUsername": "badgefed",
