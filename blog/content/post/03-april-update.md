@@ -1,8 +1,8 @@
 +++
-title = "BadgeFed Grows Up (a Little) - April Update"
+title = "BadgeFed Grows Up (a Little) - April 2025 Update"
 date = 2025-04-13T16:27:54Z
-draft = true
-tags = ["activitypub", "badgefed", "fediverse", "dotnet", "decentralization", "open-source", "identity", "roadmap", "accessibility"]
+draft = false
+tags = ["activitypub", "badgefed", "fediverse", "dotnet", "decentralization", "open-source", "identity", "roadmap"]
 author = "Maho Pacheco"
 +++
 
@@ -18,10 +18,13 @@ Out of those, about 10 were accepted. Folks who accepted should’ve received a 
 
 ---
 
-## Admin Auth & UX Glow-Up
+## Admin Auth, Hashtags & UX Glow-Up
 
 We added authentication for the admin panel!  
 Right now, you’ll need to set up a Mastodon server and a unique admin user. That account will manage everything: badges, actors, and more.
+
+We also added **hashtag support**! So badges now show up properly across the fediverse with their tags.  
+Huge shoutout to [@SmartmanApps@dotnet.social](https://dotnet.social/@SmartmanApps)—this one’s for you! And thanks for the reminder: hashtags really are the backbone of fediverse discoverability.
 
 On the visual side—we gave the UI some love! It’s starting to feel like something we’re proud of. If you’re into CSS or design, we’d *love* to collaborate.
 
@@ -31,7 +34,8 @@ We’re inching toward a private beta launch. Just trying to avoid any irreversi
 
 ## Federation & Future Thinking
 
-We’re still figuring out federation.  
+We’re still figuring out federation, we have already a few ideas to implement it.  
+
 We're deep in the weeds of the OpenBadges spec and slowly building out ActivityPub updates (like actor updates, more robust object flows, etc.).
 
 We also started poking at what interop with **at-proto (aka Bluesky)** might look like. We’re skeptical, but curious. If you’ve got thoughts, we’re all ears.
