@@ -50,7 +50,7 @@ jobs:
 
       - name: Download Almost Static ActivityPub Utilities
         run: |
-          VERSION=0.1.4
+          VERSION=0.1.7
           wget https://github.com/mahomedalid/almost-static-activitypub/releases/download/$VERSION/activitypub-utils-$VERSION-linux-x64.tar.gz
           mkdir -p ~/.activitypubdotnet
           tar -xzvf activitypub-utils-$VERSION-linux-x64.tar.gz  -C ~/.activitypubdotnet/
