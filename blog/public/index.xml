@@ -11,8 +11,89 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Mar 2025 16:27:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Apr 2025 16:27:54 +0000</lastBuildDate>
     <atom:link href="https://badgefed.vocalcat.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BadgeFed Grows Up (a Little) - April 2025 Update</title>
+      <link>https://badgefed.vocalcat.com/post/03-april-update/</link>
+      <pubDate>Sun, 13 Apr 2025 16:27:54 +0000</pubDate>
+      <guid>https://badgefed.vocalcat.com/post/03-april-update/</guid>
+      <description>&lt;p&gt;Hey Fediverse! 👋&lt;br&gt;
+Big news—BadgeFed is officially growing out of its prototype phase. This is your periodic (weekly? monthly? vibes-based?) update on what’s new, what’s brewing, and what we need help with.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;real-badges-real-people&#34;&gt;Real Badges, Real People&lt;/h2&gt;
+&lt;p&gt;We’ve issued around &lt;strong&gt;25 badges&lt;/strong&gt;—our first batch we consider &lt;em&gt;real&lt;/em&gt;! 🎉&lt;br&gt;
+Out of those, about 10 were accepted. Folks who accepted should’ve received a private notification. If you didn’t, check your inbox or let us know!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Hey Fediverse! 👋<br>
+Big news—BadgeFed is officially growing out of its prototype phase. This is your periodic (weekly? monthly? vibes-based?) update on what’s new, what’s brewing, and what we need help with.</p>
+<hr>
+<h2 id="real-badges-real-people">Real Badges, Real People</h2>
+<p>We’ve issued around <strong>25 badges</strong>—our first batch we consider <em>real</em>! 🎉<br>
+Out of those, about 10 were accepted. Folks who accepted should’ve received a private notification. If you didn’t, check your inbox or let us know!</p>
+<hr>
+<h2 id="admin-auth-hashtags--ux-glow-up">Admin Auth, Hashtags &amp; UX Glow-Up</h2>
+<p>We added authentication for the admin panel!<br>
+Right now, you’ll need to set up a Mastodon server and a unique admin user. That account will manage everything: badges, actors, and more.</p>
+<p>We also added <strong>hashtag support</strong>! So badges now show up properly across the fediverse with their tags.<br>
+Huge shoutout to <a href="https://dotnet.social/@SmartmanApps">@SmartmanApps@dotnet.social</a>—this one’s for you! And thanks for the reminder: hashtags really are the backbone of fediverse discoverability.</p>
+<p>On the visual side—we gave the UI some love! It’s starting to feel like something we’re proud of. If you’re into CSS or design, we’d <em>love</em> to collaborate.</p>
+<p>We’re inching toward a private beta launch. Just trying to avoid any irreversible DB/spec changes before opening the doors. (We’ve already nuked the whole database a few times&hellip; classic early days.)</p>
+<hr>
+<h2 id="federation--future-thinking">Federation &amp; Future Thinking</h2>
+<p>We’re still figuring out federation, we have already a few ideas to implement it.</p>
+<p>We&rsquo;re deep in the weeds of the OpenBadges spec and slowly building out ActivityPub updates (like actor updates, more robust object flows, etc.).</p>
+<p>We also started poking at what interop with <strong>at-proto (aka Bluesky)</strong> might look like. We’re skeptical, but curious. If you’ve got thoughts, we’re all ears.</p>
+<hr>
+<h2 id="tech-notes--nerdy-bits">Tech Notes &amp; Nerdy Bits</h2>
+<ul>
+<li>Still using <strong>SQLite</strong>—haven’t made the jump to PostgreSQL yet.</li>
+<li>We added a (very alpha) settings option to download your DB and run raw SQL. It’s powerful&hellip; and risky. Use with care.</li>
+<li>Exploring the idea of <strong>one SQLite DB per actor</strong>, so identities and records can be portable across servers.</li>
+</ul>
+<p>Oh—and we finally squashed that annoying cache issue showing old badges.<br>
+Huge thanks to <a href="https://stefanbohacek.online/@stefan">Stefan Bohacek</a> for the report. We made the badge note ID actually unique now. 🙃</p>
+<hr>
+<h2 id="bug-fixes--shoutouts">Bug Fixes &amp; Shoutouts</h2>
+<p>Massive props to:</p>
+<ul>
+<li><a href="https://mitra.social/@silverpill"><strong>Silver Pill</strong></a> for reporting an issue when following an issuer/actor.</li>
+<li><a href="https://a11y.social/@dankeck"><strong>Dan Keck</strong></a> for the awesome a11y PR that added alt-text to badges.</li>
+</ul>
+<p>Keep ‘em coming—we appreciate every bug report and contribution.</p>
+<hr>
+<h2 id="whats-next-">What’s Next? 📅</h2>
+<p>We’re heads-down on:</p>
+<ul>
+<li>Federation polish</li>
+<li>Better actor management</li>
+<li>OpenBadges support</li>
+<li>Prepping for private beta</li>
+</ul>
+<p>This is an open-source project. If you&rsquo;re into decentralization, badges, identity, or just weird fun tech—<strong>jump in</strong>. Feedback, PRs, issue ideas, and vibes are all welcome.</p>
+<p>👉 <a href="https://github.com/tryvocalcat/badgefed">GitHub Repo</a></p>
+<p>Let’s make federated badges a thing. 🏅<br>
+—Maho</p>
+]]></content:encoded>
+      
+        
+          <category>activitypub</category>
+        
+          <category>badgefed</category>
+        
+          <category>fediverse</category>
+        
+          <category>dotnet</category>
+        
+          <category>decentralization</category>
+        
+          <category>open-source</category>
+        
+          <category>identity</category>
+        
+          <category>roadmap</category>
+        
+      
+    </item>
     <item>
       <title>BadgeFed: From Prototype to Reality</title>
       <link>https://badgefed.vocalcat.com/post/02-roadmap/</link>

@@ -1,0 +1,71 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "https://badgefed.vocalcat.com/socialweb/notes/d7a739f718e93b21e69257afe18fc154",
+  "type": "Note",
+  "hash": "d7a739f718e93b21e69257afe18fc154",
+  "content": "\u003Cp\u003EHey Fediverse! \uD83D\uDC4B\u003Cbr\u003E\nBig news\u2014BadgeFed is officially growing out of its prototype phase. This is your periodic (weekly? monthly? vibes-based?) update on what\u2019s new, what\u2019s brewing, and what we need help with.\u003C/p\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022real-badges-real-people\u0022\u003EReal Badges, Real People\u003C/h2\u003E\n\u003Cp\u003EWe\u2019ve issued around \u003Cstrong\u003E25 badges\u003C/strong\u003E\u2014our first batch we consider \u003Cem\u003Ereal\u003C/em\u003E! \uD83C\uDF89\u003Cbr\u003E\nOut of those, about 10 were accepted. Folks who accepted should\u2019ve received a private notification. If you didn\u2019t, check your inbox or let us know!\u003C/p\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022admin-auth-hashtags--ux-glow-up\u0022\u003EAdmin Auth, Hashtags \u0026amp; UX Glow-Up\u003C/h2\u003E\n\u003Cp\u003EWe added authentication for the admin panel!\u003Cbr\u003E\nRight now, you\u2019ll need to set up a Mastodon server and a unique admin user. That account will manage everything: badges, actors, and more.\u003C/p\u003E\n\u003Cp\u003EWe also added \u003Cstrong\u003Ehashtag support\u003C/strong\u003E! So badges now show up properly across the fediverse with their tags.\u003Cbr\u003E\nHuge shoutout to \u003Ca href=\u0022https://dotnet.social/@SmartmanApps\u0022\u003E@SmartmanApps@dotnet.social\u003C/a\u003E\u2014this one\u2019s for you! And thanks for the reminder: hashtags really are the backbone of fediverse discoverability.\u003C/p\u003E\n\u003Cp\u003EOn the visual side\u2014we gave the UI some love! It\u2019s starting to feel like something we\u2019re proud of. If you\u2019re into CSS or design, we\u2019d \u003Cem\u003Elove\u003C/em\u003E to collaborate.\u003C/p\u003E\n\u003Cp\u003EWe\u2019re inching toward a private beta launch. Just trying to avoid any irreversible DB/spec changes before opening the doors. (We\u2019ve already nuked the whole database a few times\u0026hellip; classic early days.)\u003C/p\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022federation--future-thinking\u0022\u003EFederation \u0026amp; Future Thinking\u003C/h2\u003E\n\u003Cp\u003EWe\u2019re still figuring out federation, we have already a few ideas to implement it.\u003C/p\u003E\n\u003Cp\u003EWe\u0026rsquo;re deep in the weeds of the OpenBadges spec and slowly building out ActivityPub updates (like actor updates, more robust object flows, etc.).\u003C/p\u003E\n\u003Cp\u003EWe also started poking at what interop with \u003Cstrong\u003Eat-proto (aka Bluesky)\u003C/strong\u003E might look like. We\u2019re skeptical, but curious. If you\u2019ve got thoughts, we\u2019re all ears.\u003C/p\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022tech-notes--nerdy-bits\u0022\u003ETech Notes \u0026amp; Nerdy Bits\u003C/h2\u003E\n\u003Cul\u003E\n\u003Cli\u003EStill using \u003Cstrong\u003ESQLite\u003C/strong\u003E\u2014haven\u2019t made the jump to PostgreSQL yet.\u003C/li\u003E\n\u003Cli\u003EWe added a (very alpha) settings option to download your DB and run raw SQL. It\u2019s powerful\u0026hellip; and risky. Use with care.\u003C/li\u003E\n\u003Cli\u003EExploring the idea of \u003Cstrong\u003Eone SQLite DB per actor\u003C/strong\u003E, so identities and records can be portable across servers.\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cp\u003EOh\u2014and we finally squashed that annoying cache issue showing old badges.\u003Cbr\u003E\nHuge thanks to \u003Ca href=\u0022https://stefanbohacek.online/@stefan\u0022\u003EStefan Bohacek\u003C/a\u003E for the report. We made the badge note ID actually unique now. \uD83D\uDE43\u003C/p\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022bug-fixes--shoutouts\u0022\u003EBug Fixes \u0026amp; Shoutouts\u003C/h2\u003E\n\u003Cp\u003EMassive props to:\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003E\u003Ca href=\u0022https://mitra.social/@silverpill\u0022\u003E\u003Cstrong\u003ESilver Pill\u003C/strong\u003E\u003C/a\u003E for reporting an issue when following an issuer/actor.\u003C/li\u003E\n\u003Cli\u003E\u003Ca href=\u0022https://a11y.social/@dankeck\u0022\u003E\u003Cstrong\u003EDan Keck\u003C/strong\u003E\u003C/a\u003E for the awesome a11y PR that added alt-text to badges.\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cp\u003EKeep \u2018em coming\u2014we appreciate every bug report and contribution.\u003C/p\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022whats-next-\u0022\u003EWhat\u2019s Next? \uD83D\uDCC5\u003C/h2\u003E\n\u003Cp\u003EWe\u2019re heads-down on:\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003EFederation polish\u003C/li\u003E\n\u003Cli\u003EBetter actor management\u003C/li\u003E\n\u003Cli\u003EOpenBadges support\u003C/li\u003E\n\u003Cli\u003EPrepping for private beta\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cp\u003EThis is an open-source project. If you\u0026rsquo;re into decentralization, badges, identity, or just weird fun tech\u2014\u003Cstrong\u003Ejump in\u003C/strong\u003E. Feedback, PRs, issue ideas, and vibes are all welcome.\u003C/p\u003E\n\u003Cp\u003E\uD83D\uDC49 \u003Ca href=\u0022https://github.com/tryvocalcat/badgefed\u0022\u003EGitHub Repo\u003C/a\u003E\u003C/p\u003E\n\u003Cp\u003ELet\u2019s make federated badges a thing. \uD83C\uDFC5\u003Cbr\u003E\n\u2014Maho\u003C/p\u003E\n \u003Cbr /\u003E \u003Cp\u003EYou can read the article \u0022BadgeFed Grows Up (a Little) - April 2025 Update\u0022 by \u003Ca href=\u0022https://hachyderm.io/users/mapache\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Emapache\u003C/span\u003E\u003C/a\u003E \u003Ca href=\u0022https://badgefed.vocalcat.com/post/03-april-update/\u0022\u003Ehere\u003C/a\u003E as well.\u003C/p\u003E  \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/activitypub\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eactivitypub\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/badgefed\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Ebadgefed\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/fediverse\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Efediverse\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/dotnet\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Edotnet\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/decentralization\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Edecentralization\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/open-source\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eopen-source\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/identity\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eidentity\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/roadmap\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eroadmap\u003C/span\u003E\u003C/a\u003E",
+  "url": "https://badgefed.vocalcat.com/post/03-april-update/",
+  "attributedTo": "https://badgefed.vocalcat.com/socialweb/actor",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2025-04-13T16:27:54\u002B00:00",
+  "tag": [
+    {
+      "Type": "Mention",
+      "Href": "https://hachyderm.io/users/mapache",
+      "Name": "\\@mapache@hachyderm.io"
+    },
+    {
+      "Type": "Hashtag",
+      "Href": "https://badgefed.vocalcat.com/tags/activitypub",
+      "Name": "#activitypub"
+    },
+    {
+      "Type": "Hashtag",
+      "Href": "https://badgefed.vocalcat.com/tags/badgefed",
+      "Name": "#badgefed"
+    },
+    {
+      "Type": "Hashtag",
+      "Href": "https://badgefed.vocalcat.com/tags/fediverse",
+      "Name": "#fediverse"
+    },
+    {
+      "Type": "Hashtag",
+      "Href": "https://badgefed.vocalcat.com/tags/dotnet",
+      "Name": "#dotnet"
+    },
+    {
+      "Type": "Hashtag",
+      "Href": "https://badgefed.vocalcat.com/tags/decentralization",
+      "Name": "#decentralization"
+    },
+    {
+      "Type": "Hashtag",
+      "Href": "https://badgefed.vocalcat.com/tags/open-source",
+      "Name": "#open-source"
+    },
+    {
+      "Type": "Hashtag",
+      "Href": "https://badgefed.vocalcat.com/tags/identity",
+      "Name": "#identity"
+    },
+    {
+      "Type": "Hashtag",
+      "Href": "https://badgefed.vocalcat.com/tags/roadmap",
+      "Name": "#roadmap"
+    }
+  ],
+  "replies": {
+    "id": "https://badgefed.vocalcat.com/socialweb/replies/d7a739f718e93b21e69257afe18fc154",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "https://badgefed.vocalcat.com/socialweb/replies/d7a739f718e93b21e69257afe18fc154?page=true",
+      "partOf": "https://badgefed.vocalcat.com/socialweb/replies/d7a739f718e93b21e69257afe18fc154",
+      "items": []
+    }
+  }
+}
