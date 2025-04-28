@@ -3,8 +3,95 @@
   "id": "https://badgefed.vocalcat.com/socialweb/outbox",
   "type": "OrderedCollection",
   "summary": "Recent content on BadgeFed Official Blog",
-  "totalItems": 4,
+  "totalItems": 5,
   "orderedItems": [
+    {
+      "@context": "https://www.w3.org/ns/activitystreams",
+      "id": "https://badgefed.vocalcat.com/socialweb/notes/3381c9fe1aefd39fe2f8cd194532cdaf/create",
+      "type": "Create",
+      "actor": "https://badgefed.vocalcat.com/socialweb/actor",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [],
+      "published": "2025-04-28T16:55:00\u002B00:00",
+      "object": {
+        "@context": "https://www.w3.org/ns/activitystreams",
+        "id": "https://badgefed.vocalcat.com/socialweb/notes/3381c9fe1aefd39fe2f8cd194532cdaf",
+        "type": "Note",
+        "hash": "3381c9fe1aefd39fe2f8cd194532cdaf",
+        "content": "\u003Cp\u003EHey Fediverse! \uD83D\uDC4B\u003Cbr\u003E\nTwo weeks have passed and here we have another update from the BadgeFed burrow!\nHere\u0026rsquo;s what\u0026rsquo;s new, brewing, and how you can jump in if you\u0026rsquo;re feeling adventurous.\u003C/p\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022early-bits-of-decentralization\u0022\u003EEarly Bits of Decentralization\u003C/h2\u003E\n\u003Cp\u003EWe\u0026rsquo;ve started the very first steps toward decentralization! \uD83D\uDEF0\uFE0F\nRight now, we\u0026rsquo;re planning to add \u003Cstrong\u003Etwo more test instances\u003C/strong\u003E to push federation further.\u003C/p\u003E\n\u003Cp\u003EThat said\u2014\u003Cstrong\u003Ethere are still no controls for blocking, defederating, moderating, or deleting\u003C/strong\u003E yet. So we\u0026rsquo;re \u003Cem\u003Enot\u003C/em\u003E opening it up publicly just yet (BadgeFed isn\u0026rsquo;t ready for the wild west).\u003C/p\u003E\n\u003Cp\u003E\u003Cstrong\u003EBUT\u003C/strong\u003E\u2014if you\u0026rsquo;re comfortable around \u003Cstrong\u003ESQL\u003C/strong\u003E and \u003Cstrong\u003Eservers\u003C/strong\u003E, \u003Cstrong\u003Edon\u0026rsquo;t mind losing data\u003C/strong\u003E, and want to help us test the early messy bits, \u003Cstrong\u003Elet us know\u003C/strong\u003E! We\u0026rsquo;d love to have more fearless testers on board.\u003C/p\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022openbadges-export-is-live-\u0022\u003EOpenBadges Export is Live! \uD83C\uDF89\u003C/h2\u003E\n\u003Cp\u003EBig milestone: \u003Cstrong\u003Eyou can now export your badges to OpenBadges format!\u003C/strong\u003E\u003C/p\u003E\n\u003Cp\u003EThis is a huge step toward real portability. Right now, you can only export badges tied to \u003Cstrong\u003Eprofile URLs\u003C/strong\u003E (think Mastodon profiles, etc.), \u003Cem\u003Enot emails\u003C/em\u003E yet.\u003C/p\u003E\n\u003Cp\u003EThat means you \u003Cem\u003Ecan\u0026rsquo;t\u003C/em\u003E directly import them into platforms like \u003Cstrong\u003EBadgr\u003C/strong\u003E or \u003Cstrong\u003ECredly\u003C/strong\u003E (unless they someday support URL-based verification).\u003Cbr\u003E\nWe\u0026rsquo;re going to push for that\u2014because identity shouldn\u0026rsquo;t be chained to an email address.\u003C/p\u003E\n\u003Cp\u003EAlso: \u003Cstrong\u003Ewe have zero interest in storing emails\u003C/strong\u003E. Privacy first. Always.\u003C/p\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022uxui-improvements--search-\u0022\u003EUX/UI Improvements \u002B Search \uD83D\uDD0D\u003C/h2\u003E\n\u003Cp\u003EA few small but mighty improvements:\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003E\u003Cstrong\u003ENew search page\u003C/strong\u003E! Now you can search your past badges easily.\u003C/li\u003E\n\u003Cli\u003E\u003Cstrong\u003EBadges are now an attachment to a regular ActivityPub note\u003C/strong\u003E, instead of a separate document type.\n\u003Cul\u003E\n\u003Cli\u003EWe tried doing a new document type, but\u0026hellip; \u003Cem\u003EMastodon just ignored it.\u003C/em\u003E\u003C/li\u003E\n\u003Cli\u003ELike it or not, we need to be Mastodon-compatible to reach people. But attachments are a \u003Cstrong\u003Efine\u003C/strong\u003E way to extend the ActivityPub spec.\u003C/li\u003E\n\u003C/ul\u003E\n\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cp\u003ELittle things, but they add up to a smoother experience.\u003C/p\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022follow-other-issuers-and-bridgefed\u0022\u003EFollow Other Issuers! (and Bridgefed!)\u003C/h2\u003E\n\u003Cp\u003EIssuers can now \u003Cstrong\u003Efollow other issuers\u003C/strong\u003E!\u003Cbr\u003E\nWe think this is a critical building block for decentralization. \uD83D\uDEE0\uFE0F\u003C/p\u003E\n\u003Cp\u003EPlus, if you follow \u003Cstrong\u003EBridgy Fed\u003C/strong\u003E, it will \u003Cstrong\u003Ebridge to Bluesky\u003C/strong\u003E!\u003C/p\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022lots-of-other-nerdy-bits\u0022\u003ELots of Other Nerdy Bits\u003C/h2\u003E\n\u003Cp\u003EUnder the hood:\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003ETons of minor improvements and cleanups\u003C/li\u003E\n\u003Cli\u003EMore internal support for federating badges across different servers\u003C/li\u003E\n\u003Cli\u003EPrepping groundwork for instance-level controls later\u003C/li\u003E\n\u003C/ul\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022wanna-test-with-us-\u0022\u003EWanna Test With Us? \uD83E\uDDEA\u003C/h2\u003E\n\u003Cp\u003EIf you\u0026rsquo;re comfortable with:\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003ERaw SQL\u003C/li\u003E\n\u003Cli\u003EServers crashing\u003C/li\u003E\n\u003Cli\u003EMaybe losing everything \uD83D\uDE05\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cp\u003E\u0026hellip;and want to help shape early decentralized BadgeFed, \u003Cstrong\u003Emessage us\u003C/strong\u003E!\u003C/p\u003E\n\u003Cp\u003E(Seriously, it\u0026rsquo;ll be messy but fun.)\u003C/p\u003E\n\u003Cp\u003E\uD83D\uDC49 \u003Ca href=\u0022https://github.com/tryvocalcat/badgefed\u0022\u003EGitHub Repo\u003C/a\u003E\u003C/p\u003E\n\u003Cp\u003ELet\u0026rsquo;s make federated badges a reality. \uD83D\uDE80\u003C/p\u003E\n\u003Cp\u003E\u2014Maho\u003C/p\u003E\n \u003Cbr /\u003E \u003Cp\u003EYou can read the article \u0022BadgeFed: Early Decentralization Experiments \u002B OpenBadges Export! - Second April 2025 Update\u0022 by \u003Ca href=\u0022https://hachyderm.io/users/mapache\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Emapache\u003C/span\u003E\u003C/a\u003E \u003Ca href=\u0022https://badgefed.vocalcat.com/post/04-april2nd-update/\u0022\u003Ehere\u003C/a\u003E as well.\u003C/p\u003E  \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/activitypub\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eactivitypub\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/badgefed\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Ebadgefed\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/fediverse\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Efediverse\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/dotnet\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Edotnet\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/decentralization\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Edecentralization\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/open-source\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eopen-source\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/openbadges\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eopenbadges\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/identity\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eidentity\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/roadmap\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eroadmap\u003C/span\u003E\u003C/a\u003E",
+        "url": "https://badgefed.vocalcat.com/post/04-april2nd-update/",
+        "attributedTo": "https://badgefed.vocalcat.com/socialweb/actor",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "cc": [],
+        "published": "2025-04-28T16:55:00\u002B00:00",
+        "tag": [
+          {
+            "type": "Mention",
+            "href": "https://hachyderm.io/users/mapache",
+            "name": "\\@mapache@hachyderm.io"
+          },
+          {
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/activitypub",
+            "name": "#activitypub"
+          },
+          {
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/badgefed",
+            "name": "#badgefed"
+          },
+          {
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/fediverse",
+            "name": "#fediverse"
+          },
+          {
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/dotnet",
+            "name": "#dotnet"
+          },
+          {
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/decentralization",
+            "name": "#decentralization"
+          },
+          {
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/open-source",
+            "name": "#open-source"
+          },
+          {
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/openbadges",
+            "name": "#openbadges"
+          },
+          {
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/identity",
+            "name": "#identity"
+          },
+          {
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/roadmap",
+            "name": "#roadmap"
+          }
+        ],
+        "replies": {
+          "id": "https://badgefed.vocalcat.com/socialweb/replies/3381c9fe1aefd39fe2f8cd194532cdaf",
+          "type": "Collection",
+          "first": {
+            "type": "CollectionPage",
+            "next": "https://badgefed.vocalcat.com/socialweb/replies/3381c9fe1aefd39fe2f8cd194532cdaf?page=true",
+            "partOf": "https://badgefed.vocalcat.com/socialweb/replies/3381c9fe1aefd39fe2f8cd194532cdaf",
+            "items": []
+          }
+        }
+      }
+    },
     {
       "@context": "https://www.w3.org/ns/activitystreams",
       "id": "https://badgefed.vocalcat.com/socialweb/notes/d7a739f718e93b21e69257afe18fc154/create",
@@ -30,49 +117,49 @@
         "published": "2025-04-13T16:27:54\u002B00:00",
         "tag": [
           {
-            "Type": "Mention",
-            "Href": "https://hachyderm.io/users/mapache",
-            "Name": "\\@mapache@hachyderm.io"
+            "type": "Mention",
+            "href": "https://hachyderm.io/users/mapache",
+            "name": "\\@mapache@hachyderm.io"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/activitypub",
-            "Name": "#activitypub"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/activitypub",
+            "name": "#activitypub"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/badgefed",
-            "Name": "#badgefed"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/badgefed",
+            "name": "#badgefed"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/fediverse",
-            "Name": "#fediverse"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/fediverse",
+            "name": "#fediverse"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/dotnet",
-            "Name": "#dotnet"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/dotnet",
+            "name": "#dotnet"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/decentralization",
-            "Name": "#decentralization"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/decentralization",
+            "name": "#decentralization"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/open-source",
-            "Name": "#open-source"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/open-source",
+            "name": "#open-source"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/identity",
-            "Name": "#identity"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/identity",
+            "name": "#identity"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/roadmap",
-            "Name": "#roadmap"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/roadmap",
+            "name": "#roadmap"
           }
         ],
         "replies": {
@@ -112,49 +199,49 @@
         "published": "2025-03-31T16:27:54\u002B00:00",
         "tag": [
           {
-            "Type": "Mention",
-            "Href": "https://hachyderm.io/users/mapache",
-            "Name": "\\@mapache@hachyderm.io"
+            "type": "Mention",
+            "href": "https://hachyderm.io/users/mapache",
+            "name": "\\@mapache@hachyderm.io"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/activitypub",
-            "Name": "#activitypub"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/activitypub",
+            "name": "#activitypub"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/badgefed",
-            "Name": "#badgefed"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/badgefed",
+            "name": "#badgefed"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/fediverse",
-            "Name": "#fediverse"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/fediverse",
+            "name": "#fediverse"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/dotnet",
-            "Name": "#dotnet"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/dotnet",
+            "name": "#dotnet"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/decentralization",
-            "Name": "#decentralization"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/decentralization",
+            "name": "#decentralization"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/open-source",
-            "Name": "#open-source"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/open-source",
+            "name": "#open-source"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/identity",
-            "Name": "#identity"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/identity",
+            "name": "#identity"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/roadmap",
-            "Name": "#roadmap"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/roadmap",
+            "name": "#roadmap"
           }
         ],
         "replies": {
@@ -194,29 +281,29 @@
         "published": "2025-03-30T20:27:54\u002B00:00",
         "tag": [
           {
-            "Type": "Mention",
-            "Href": "https://hachyderm.io/users/mapache",
-            "Name": "\\@mapache@hachyderm.io"
+            "type": "Mention",
+            "href": "https://hachyderm.io/users/mapache",
+            "name": "\\@mapache@hachyderm.io"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/activitypub",
-            "Name": "#activitypub"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/activitypub",
+            "name": "#activitypub"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/badfeded",
-            "Name": "#badfeded"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/badfeded",
+            "name": "#badfeded"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/fediverse",
-            "Name": "#fediverse"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/fediverse",
+            "name": "#fediverse"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/dotnet",
-            "Name": "#dotnet"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/dotnet",
+            "name": "#dotnet"
           }
         ],
         "replies": {
@@ -256,24 +343,24 @@
         "published": "2025-03-30T18:27:54\u002B00:00",
         "tag": [
           {
-            "Type": "Mention",
-            "Href": "https://hachyderm.io/users/mapache",
-            "Name": "\\@mapache@hachyderm.io"
+            "type": "Mention",
+            "href": "https://hachyderm.io/users/mapache",
+            "name": "\\@mapache@hachyderm.io"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/activitypub",
-            "Name": "#activitypub"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/activitypub",
+            "name": "#activitypub"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/badfeded",
-            "Name": "#badfeded"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/badfeded",
+            "name": "#badfeded"
           },
           {
-            "Type": "Hashtag",
-            "Href": "https://badgefed.vocalcat.com/tags/fediverse",
-            "Name": "#fediverse"
+            "type": "Hashtag",
+            "href": "https://badgefed.vocalcat.com/tags/fediverse",
+            "name": "#fediverse"
           }
         ],
         "replies": {

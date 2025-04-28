@@ -13,29 +13,29 @@
   "published": "2025-03-30T20:27:54\u002B00:00",
   "tag": [
     {
-      "Type": "Mention",
-      "Href": "https://hachyderm.io/users/mapache",
-      "Name": "\\@mapache@hachyderm.io"
+      "type": "Mention",
+      "href": "https://hachyderm.io/users/mapache",
+      "name": "\\@mapache@hachyderm.io"
     },
     {
-      "Type": "Hashtag",
-      "Href": "https://badgefed.vocalcat.com/tags/activitypub",
-      "Name": "#activitypub"
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/activitypub",
+      "name": "#activitypub"
     },
     {
-      "Type": "Hashtag",
-      "Href": "https://badgefed.vocalcat.com/tags/badfeded",
-      "Name": "#badfeded"
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/badfeded",
+      "name": "#badfeded"
     },
     {
-      "Type": "Hashtag",
-      "Href": "https://badgefed.vocalcat.com/tags/fediverse",
-      "Name": "#fediverse"
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/fediverse",
+      "name": "#fediverse"
     },
     {
-      "Type": "Hashtag",
-      "Href": "https://badgefed.vocalcat.com/tags/dotnet",
-      "Name": "#dotnet"
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/dotnet",
+      "name": "#dotnet"
     }
   ],
   "replies": {

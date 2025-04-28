@@ -11,8 +11,99 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Apr 2025 16:27:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Apr 2025 16:55:00 +0000</lastBuildDate>
     <atom:link href="https://badgefed.vocalcat.com/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BadgeFed: Early Decentralization Experiments &#43; OpenBadges Export! - Second April 2025 Update</title>
+      <link>https://badgefed.vocalcat.com/post/04-april2nd-update/</link>
+      <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
+      <guid>https://badgefed.vocalcat.com/post/04-april2nd-update/</guid>
+      <description>&lt;p&gt;Hey Fediverse! 👋&lt;br&gt;
+Two weeks have passed and here we have another update from the BadgeFed burrow!
+Here&amp;rsquo;s what&amp;rsquo;s new, brewing, and how you can jump in if you&amp;rsquo;re feeling adventurous.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;early-bits-of-decentralization&#34;&gt;Early Bits of Decentralization&lt;/h2&gt;
+&lt;p&gt;We&amp;rsquo;ve started the very first steps toward decentralization! 🛰️
+Right now, we&amp;rsquo;re planning to add &lt;strong&gt;two more test instances&lt;/strong&gt; to push federation further.&lt;/p&gt;
+&lt;p&gt;That said—&lt;strong&gt;there are still no controls for blocking, defederating, moderating, or deleting&lt;/strong&gt; yet. So we&amp;rsquo;re &lt;em&gt;not&lt;/em&gt; opening it up publicly just yet (BadgeFed isn&amp;rsquo;t ready for the wild west).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Hey Fediverse! 👋<br>
+Two weeks have passed and here we have another update from the BadgeFed burrow!
+Here&rsquo;s what&rsquo;s new, brewing, and how you can jump in if you&rsquo;re feeling adventurous.</p>
+<hr>
+<h2 id="early-bits-of-decentralization">Early Bits of Decentralization</h2>
+<p>We&rsquo;ve started the very first steps toward decentralization! 🛰️
+Right now, we&rsquo;re planning to add <strong>two more test instances</strong> to push federation further.</p>
+<p>That said—<strong>there are still no controls for blocking, defederating, moderating, or deleting</strong> yet. So we&rsquo;re <em>not</em> opening it up publicly just yet (BadgeFed isn&rsquo;t ready for the wild west).</p>
+<p><strong>BUT</strong>—if you&rsquo;re comfortable around <strong>SQL</strong> and <strong>servers</strong>, <strong>don&rsquo;t mind losing data</strong>, and want to help us test the early messy bits, <strong>let us know</strong>! We&rsquo;d love to have more fearless testers on board.</p>
+<hr>
+<h2 id="openbadges-export-is-live-">OpenBadges Export is Live! 🎉</h2>
+<p>Big milestone: <strong>you can now export your badges to OpenBadges format!</strong></p>
+<p>This is a huge step toward real portability. Right now, you can only export badges tied to <strong>profile URLs</strong> (think Mastodon profiles, etc.), <em>not emails</em> yet.</p>
+<p>That means you <em>can&rsquo;t</em> directly import them into platforms like <strong>Badgr</strong> or <strong>Credly</strong> (unless they someday support URL-based verification).<br>
+We&rsquo;re going to push for that—because identity shouldn&rsquo;t be chained to an email address.</p>
+<p>Also: <strong>we have zero interest in storing emails</strong>. Privacy first. Always.</p>
+<hr>
+<h2 id="uxui-improvements--search-">UX/UI Improvements + Search 🔍</h2>
+<p>A few small but mighty improvements:</p>
+<ul>
+<li><strong>New search page</strong>! Now you can search your past badges easily.</li>
+<li><strong>Badges are now an attachment to a regular ActivityPub note</strong>, instead of a separate document type.
+<ul>
+<li>We tried doing a new document type, but&hellip; <em>Mastodon just ignored it.</em></li>
+<li>Like it or not, we need to be Mastodon-compatible to reach people. But attachments are a <strong>fine</strong> way to extend the ActivityPub spec.</li>
+</ul>
+</li>
+</ul>
+<p>Little things, but they add up to a smoother experience.</p>
+<hr>
+<h2 id="follow-other-issuers-and-bridgefed">Follow Other Issuers! (and Bridgefed!)</h2>
+<p>Issuers can now <strong>follow other issuers</strong>!<br>
+We think this is a critical building block for decentralization. 🛠️</p>
+<p>Plus, if you follow <strong>Bridgy Fed</strong>, it will <strong>bridge to Bluesky</strong>!</p>
+<hr>
+<h2 id="lots-of-other-nerdy-bits">Lots of Other Nerdy Bits</h2>
+<p>Under the hood:</p>
+<ul>
+<li>Tons of minor improvements and cleanups</li>
+<li>More internal support for federating badges across different servers</li>
+<li>Prepping groundwork for instance-level controls later</li>
+</ul>
+<hr>
+<h2 id="wanna-test-with-us-">Wanna Test With Us? 🧪</h2>
+<p>If you&rsquo;re comfortable with:</p>
+<ul>
+<li>Raw SQL</li>
+<li>Servers crashing</li>
+<li>Maybe losing everything 😅</li>
+</ul>
+<p>&hellip;and want to help shape early decentralized BadgeFed, <strong>message us</strong>!</p>
+<p>(Seriously, it&rsquo;ll be messy but fun.)</p>
+<p>👉 <a href="https://github.com/tryvocalcat/badgefed">GitHub Repo</a></p>
+<p>Let&rsquo;s make federated badges a reality. 🚀</p>
+<p>—Maho</p>
+]]></content:encoded>
+      
+        
+          <category>activitypub</category>
+        
+          <category>badgefed</category>
+        
+          <category>fediverse</category>
+        
+          <category>dotnet</category>
+        
+          <category>decentralization</category>
+        
+          <category>open-source</category>
+        
+          <category>openbadges</category>
+        
+          <category>identity</category>
+        
+          <category>roadmap</category>
+        
+      
+    </item>
     <item>
       <title>BadgeFed Grows Up (a Little) - April 2025 Update</title>
       <link>https://badgefed.vocalcat.com/post/03-april-update/</link>
