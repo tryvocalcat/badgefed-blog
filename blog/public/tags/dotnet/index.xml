@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Dotnet on BadgeFed Official Blog</title>
-    <link>http://localhost:1313/tags/dotnet/</link>
+    <link>https://badgefed.vocalcat.com/tags/dotnet/</link>
     <description>Recent content in Dotnet on BadgeFed Official Blog</description>
     <image>
       <title>BadgeFed Official Blog</title>
-      <url>http://localhost:1313/images/avatar.png</url>
-      <link>http://localhost:1313/images/avatar.png</link>
+      <url>https://badgefed.vocalcat.com/images/avatar.png</url>
+      <link>https://badgefed.vocalcat.com/images/avatar.png</link>
     </image>
-    <generator>Hugo -- 0.147.3</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Apr 2025 16:55:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://badgefed.vocalcat.com/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BadgeFed: Early Decentralization Experiments &#43; OpenBadges Export! - Second April 2025 Update</title>
-      <link>http://localhost:1313/post/04-april2nd-update/</link>
+      <link>https://badgefed.vocalcat.com/post/04-april2nd-update/</link>
       <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/04-april2nd-update/</guid>
+      <guid>https://badgefed.vocalcat.com/post/04-april2nd-update/</guid>
       <description>&lt;p&gt;Hey Fediverse! 👋&lt;br&gt;
 Two weeks have passed and here we have another update from the BadgeFed burrow!
 Here&amp;rsquo;s what&amp;rsquo;s new, brewing, and how you can jump in if you&amp;rsquo;re feeling adventurous.&lt;/p&gt;
@@ -106,9 +106,9 @@ We think this is a critical building block for decentralization. 🛠️</p>
     </item>
     <item>
       <title>BadgeFed Grows Up (a Little) - April 2025 Update</title>
-      <link>http://localhost:1313/post/03-april-update/</link>
+      <link>https://badgefed.vocalcat.com/post/03-april-update/</link>
       <pubDate>Sun, 13 Apr 2025 16:27:54 +0000</pubDate>
-      <guid>http://localhost:1313/post/03-april-update/</guid>
+      <guid>https://badgefed.vocalcat.com/post/03-april-update/</guid>
       <description>&lt;p&gt;Hey Fediverse! 👋&lt;br&gt;
 Big news—BadgeFed is officially growing out of its prototype phase. This is your periodic (weekly? monthly? vibes-based?) update on what’s new, what’s brewing, and what we need help with.&lt;/p&gt;
 &lt;hr&gt;
@@ -187,9 +187,9 @@ Huge thanks to <a href="https://stefanbohacek.online/@stefan">Stefan Bohacek</a>
     </item>
     <item>
       <title>BadgeFed: From Prototype to Reality</title>
-      <link>http://localhost:1313/post/02-roadmap/</link>
+      <link>https://badgefed.vocalcat.com/post/02-roadmap/</link>
       <pubDate>Mon, 31 Mar 2025 16:27:54 +0000</pubDate>
-      <guid>http://localhost:1313/post/02-roadmap/</guid>
+      <guid>https://badgefed.vocalcat.com/post/02-roadmap/</guid>
       <description>&lt;p&gt;Hey Fediverse, we&amp;rsquo;ve got some exciting news—BadgeFed is moving out of the prototype phase! That&amp;rsquo;s right, what started as a scrappy proof-of-concept is now becoming a real, structured, and (dare we say) polished federated badge system.
 And since we believe in working out in the open, we want to share our roadmap with you.&lt;/p&gt;
 &lt;h2 id=&#34;the-big-three-priorities-&#34;&gt;The Big Three Priorities 🏆&lt;/h2&gt;
@@ -246,9 +246,9 @@ This is an open-source project, and the best way to make sure it fits the needs 
     </item>
     <item>
       <title>Introducing a Minimalistic ActivityPub Badge System: Decentralized, Verified, and Built for the Fediverse</title>
-      <link>http://localhost:1313/post/01-init/</link>
+      <link>https://badgefed.vocalcat.com/post/01-init/</link>
       <pubDate>Sun, 30 Mar 2025 20:27:54 +0000</pubDate>
-      <guid>http://localhost:1313/post/01-init/</guid>
+      <guid>https://badgefed.vocalcat.com/post/01-init/</guid>
       <description>&lt;p&gt;In the ever-evolving world of digital credentials, we’ve seen centralized platforms like Credly dominate the badge and certification space.
 But what if we could flip the script? What if badges could be decentralized, self-certified, and issued directly by organizations in the Fediverse?&lt;/p&gt;
 &lt;p&gt;By reusing the social graph already present in the Fediverse, we can enable a seamless integration of badges into the networks people are already part of.

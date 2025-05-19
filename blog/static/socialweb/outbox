@@ -3,8 +3,50 @@
   "id": "https://badgefed.vocalcat.com/socialweb/outbox",
   "type": "OrderedCollection",
   "summary": "Recent content on BadgeFed Official Blog",
-  "totalItems": 5,
+  "totalItems": 6,
   "orderedItems": [
+    {
+      "@context": "https://www.w3.org/ns/activitystreams",
+      "id": "https://badgefed.vocalcat.com/socialweb/notes/233b2595101b64a6b946c716bb307e56/create",
+      "type": "Create",
+      "actor": "https://badgefed.vocalcat.com/socialweb/actor",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "cc": [],
+      "published": "2025-05-19T08:40:00-07:00",
+      "object": {
+        "@context": "https://www.w3.org/ns/activitystreams",
+        "id": "https://badgefed.vocalcat.com/socialweb/notes/233b2595101b64a6b946c716bb307e56",
+        "type": "Note",
+        "hash": "233b2595101b64a6b946c716bb307e56",
+        "content": "\u003Cp\u003E\u003Cstrong\u003EBadgeFed Workflow: Decentralized Badge Issuance and Sharing\u003C/strong\u003E\u003C/p\u003E\n\u003Col\u003E\n\u003Cli\u003EAn admin creates an issuer. The issuer page acts as an ActivityPub actor, and an endpoint for an OpenBadge issuer is also provided.\u003C/li\u003E\n\u003C/ol\u003E\n\u003Cblockquote\u003E\n\u003Cp\u003EFor example, visit \u003Ca href=\u0022https://badges.vocalcat.com/view/actor/badges.vocalcat.com/fediverse\u0022\u003Ethis issuer page\u003C/a\u003E. The page represents an issuer and displays its followers. You can copy the issuer\u0026rsquo;s URL and open it in Mastodon, where you will be able to view, follow, and interact with the issuer directly from Mastodon.\u003C/p\u003E\u003C/blockquote\u003E\n\u003Cp\u003E\u003Cimg alt=\u0022BadgeFed Workflow Diagram\u0022 loading=\u0022lazy\u0022 src=\u0022/images/s02.png\u0022\u003E\u003C/p\u003E\n\u003Col start=\u00222\u0022\u003E\n\u003Cli\u003EThe admin creates a badge or credential and associates it with the issuer.\u003C/li\u003E\n\u003C/ol\u003E\n\u003Cp\u003E\u003Cimg alt=\u0022BadgeFed Workflow Diagram\u0022 loading=\u0022lazy\u0022 src=\u0022/images/s04.png\u0022\u003E\u003C/p\u003E\n\u003Col start=\u00223\u0022\u003E\n\u003Cli\u003EThe admin grants a badge or credential to a recipient using a URL, phone number, or email address, following the OpenBadges standard. If the URL is a Fediverse actor, the recipient receives a private ActivityPub notification. If an email is provided, BadgeFed sends a link via email. An approval link is also available for manual sharing.\u003C/li\u003E\n\u003C/ol\u003E\n\u003Cp\u003E\u003Cimg alt=\u0022BadgeFed Workflow Diagram\u0022 loading=\u0022lazy\u0022 src=\u0022/images/s01.png\u0022\u003E\u003C/p\u003E\n\u003Col start=\u00224\u0022\u003E\n\u003Cli\u003EThe recipient accepts the badge and chooses to make it public or private.\u003C/li\u003E\n\u003C/ol\u003E\n\u003Cp\u003E\u003Cimg alt=\u0022BadgeFed Workflow Diagram\u0022 loading=\u0022lazy\u0022 src=\u0022/images/s03.png\u0022\u003E\u003C/p\u003E\n\u003Col start=\u00225\u0022\u003E\n\u003Cli\u003EBadgeFed creates a note and associates it with the OpenBadge. This note is decentralized by sending it to the inboxes of the issuer\u0026rsquo;s followers using ActivityPub. The note mentions the recipient, and the badge URL is also an ActivityPub object. The OpenBadge can be exported from this page.\u003C/li\u003E\n\u003C/ol\u003E\n\u003Cblockquote\u003E\n\u003Cp\u003EFor example, check out \u003Ca href=\u0022https://badges.vocalcat.com/view/grant/badgesvocalcatcom_4_8_b26c1fc562a7596ef4c3517ec01fbcd6\u0022\u003Ethis badge\u003C/a\u003E.\u003Cbr\u003E\nIt shows a credential granted to a Fediverse profile and has a note representation.\u003Cbr\u003E\nCopy the badge URL and paste it into Mastodon; you can boost, comment, and share this note.\u003C/p\u003E\u003C/blockquote\u003E\n\u003Cp\u003EAll comments will appear on the badge page.\u003C/p\u003E\n\u003Cblockquote\u003E\n\u003Cp\u003EIf you make an \u003Ccode\u003EAccept: application/activity\u002Bjson\u003C/code\u003E request to the badge URL, it will also return an ActivityPub object.\u003C/p\u003E\u003C/blockquote\u003E\n\u003Cp\u003E\u003Cimg alt=\u0022BadgeFed Workflow Diagram\u0022 loading=\u0022lazy\u0022 src=\u0022/images/s05.png\u0022\u003E\u003C/p\u003E\n\u003Col start=\u00226\u0022\u003E\n\u003Cli\u003EIf any of the issuer\u0026rsquo;s followers is another BadgeFed issuer, they can consume and store a copy of the badge, further decentralizing it.\u003C/li\u003E\n\u003C/ol\u003E\n\u003Cblockquote\u003E\n\u003Cp\u003EFor example, see \u003Ca href=\u0022https://badges.vocalcat.com/view/grant/verifiedbymahodev_1_1_89fb419013f52130e83e223663906b6b\u0022\u003Ethis external badge\u003C/a\u003E.\u003Cbr\u003E\nIt demonstrates a decentralized badge that can be viewed at its original URL, following a pattern similar to other Fediverse services like Mastodon.\u003C/p\u003E\u003C/blockquote\u003E\n\u003Cp\u003E\u003Cimg alt=\u0022BadgeFed Workflow Diagram\u0022 loading=\u0022lazy\u0022 src=\u0022/images/s06.png\u0022\u003E\u003C/p\u003E\n\u003Col start=\u00227\u0022\u003E\n\u003Cli\u003EAny recipient can search for their badges on any BadgeFed instance. The search will display badges from the local instance as well as external badges. Similar to Mastodon, badges can be viewed on the current server or opened at their original source.\u003C/li\u003E\n\u003C/ol\u003E\n\u003Cp\u003E\u003Cimg alt=\u0022BadgeFed Workflow Diagram\u0022 loading=\u0022lazy\u0022 src=\u0022/images/s07.png\u0022\u003E\u003C/p\u003E\n\u003Cp\u003E\u003Cstrong\u003EActivityPub integration enables decentralized badge sharing and notifications across the Fediverse.\u003C/strong\u003E\u003C/p\u003E\n \u003Cbr /\u003E \u003Cp\u003EYou can read the article \u0022Decentralized Badge Issuance: An End-to-End Workflow\u0022 by \u003Ca href=\u0022https://hachyderm.io/users/mapache\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Emapache\u003C/span\u003E\u003C/a\u003E \u003Ca href=\u0022https://badgefed.vocalcat.com/demo/\u0022\u003Ehere\u003C/a\u003E as well.\u003C/p\u003E ",
+        "url": "https://badgefed.vocalcat.com/demo/",
+        "attributedTo": "https://badgefed.vocalcat.com/socialweb/actor",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "cc": [],
+        "published": "2025-05-19T08:40:00-07:00",
+        "tag": [
+          {
+            "type": "Mention",
+            "href": "https://hachyderm.io/users/mapache",
+            "name": "\\@mapache@hachyderm.io"
+          }
+        ],
+        "replies": {
+          "id": "https://badgefed.vocalcat.com/socialweb/replies/233b2595101b64a6b946c716bb307e56",
+          "type": "Collection",
+          "first": {
+            "type": "CollectionPage",
+            "next": "https://badgefed.vocalcat.com/socialweb/replies/233b2595101b64a6b946c716bb307e56?page=true",
+            "partOf": "https://badgefed.vocalcat.com/socialweb/replies/233b2595101b64a6b946c716bb307e56",
+            "items": []
+          }
+        }
+      }
+    },
     {
       "@context": "https://www.w3.org/ns/activitystreams",
       "id": "https://badgefed.vocalcat.com/socialweb/notes/3381c9fe1aefd39fe2f8cd194532cdaf/create",
