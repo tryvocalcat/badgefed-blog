@@ -2,60 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://badgefed.vocalcat.com/tags/activitypub/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-19T08:40:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/demo/</loc>
+    <lastmod>2025-05-19T08:40:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/activitypub/</loc>
     <lastmod>2025-04-28T16:55:00+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/tags/badgefed/</loc>
+    <loc>http://localhost:1313/tags/badgefed/</loc>
     <lastmod>2025-04-28T16:55:00+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/</loc>
+    <loc>http://localhost:1313/post/04-april2nd-update/</loc>
     <lastmod>2025-04-28T16:55:00+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/post/04-april2nd-update/</loc>
+    <loc>http://localhost:1313/tags/decentralization/</loc>
     <lastmod>2025-04-28T16:55:00+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/tags/decentralization/</loc>
+    <loc>http://localhost:1313/tags/dotnet/</loc>
     <lastmod>2025-04-28T16:55:00+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/tags/dotnet/</loc>
+    <loc>http://localhost:1313/tags/fediverse/</loc>
     <lastmod>2025-04-28T16:55:00+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/tags/fediverse/</loc>
+    <loc>http://localhost:1313/tags/identity/</loc>
     <lastmod>2025-04-28T16:55:00+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/tags/identity/</loc>
+    <loc>http://localhost:1313/tags/open-source/</loc>
     <lastmod>2025-04-28T16:55:00+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/tags/open-source/</loc>
+    <loc>http://localhost:1313/tags/openbadges/</loc>
     <lastmod>2025-04-28T16:55:00+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/tags/openbadges/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-04-28T16:55:00+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/post/</loc>
+    <loc>http://localhost:1313/tags/roadmap/</loc>
     <lastmod>2025-04-28T16:55:00+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/tags/roadmap/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-04-28T16:55:00+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/tags/</loc>
-    <lastmod>2025-04-28T16:55:00+00:00</lastmod>
-  </url><url>
-    <loc>https://badgefed.vocalcat.com/post/03-april-update/</loc>
+    <loc>http://localhost:1313/post/03-april-update/</loc>
     <lastmod>2025-04-13T16:27:54+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/post/02-roadmap/</loc>
+    <loc>http://localhost:1313/post/02-roadmap/</loc>
     <lastmod>2025-03-31T16:27:54+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/tags/badfeded/</loc>
+    <loc>http://localhost:1313/tags/badfeded/</loc>
     <lastmod>2025-03-30T20:27:54+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/post/01-init/</loc>
+    <loc>http://localhost:1313/post/01-init/</loc>
     <lastmod>2025-03-30T20:27:54+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/post/hello-world/</loc>
+    <loc>http://localhost:1313/post/hello-world/</loc>
     <lastmod>2025-03-30T18:27:54+00:00</lastmod>
   </url><url>
-    <loc>https://badgefed.vocalcat.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>

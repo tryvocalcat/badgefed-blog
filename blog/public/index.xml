@@ -2,22 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>BadgeFed Official Blog</title>
-    <link>https://badgefed.vocalcat.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on BadgeFed Official Blog</description>
     <image>
       <title>BadgeFed Official Blog</title>
-      <url>https://badgefed.vocalcat.com/images/avatar.png</url>
-      <link>https://badgefed.vocalcat.com/images/avatar.png</link>
+      <url>http://localhost:1313/images/avatar.png</url>
+      <link>http://localhost:1313/images/avatar.png</link>
     </image>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Apr 2025 16:55:00 +0000</lastBuildDate>
-    <atom:link href="https://badgefed.vocalcat.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 May 2025 08:40:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decentralized Badge Issuance: An End-to-End Workflow</title>
+      <link>http://localhost:1313/demo/</link>
+      <pubDate>Mon, 19 May 2025 08:40:00 -0700</pubDate>
+      <guid>http://localhost:1313/demo/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;BadgeFed Workflow: Decentralized Badge Issuance and Sharing&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An admin creates an issuer. The issuer page acts as an ActivityPub actor, and an endpoint for an OpenBadge issuer is also provided.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For example, visit &lt;a href=&#34;https://badges.vocalcat.com/view/actor/badges.vocalcat.com/fediverse&#34;&gt;this issuer page&lt;/a&gt;. The page represents an issuer and displays its followers. You can copy the issuer&amp;rsquo;s URL and open it in Mastodon, where you will be able to view, follow, and interact with the issuer directly from Mastodon.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>BadgeFed Workflow: Decentralized Badge Issuance and Sharing</strong></p>
+<ol>
+<li>An admin creates an issuer. The issuer page acts as an ActivityPub actor, and an endpoint for an OpenBadge issuer is also provided.</li>
+</ol>
+<blockquote>
+<p>For example, visit <a href="https://badges.vocalcat.com/view/actor/badges.vocalcat.com/fediverse">this issuer page</a>. The page represents an issuer and displays its followers. You can copy the issuer&rsquo;s URL and open it in Mastodon, where you will be able to view, follow, and interact with the issuer directly from Mastodon.</p></blockquote>
+<p><img alt="BadgeFed Workflow Diagram" loading="lazy" src="/images/s02.png"></p>
+<ol start="2">
+<li>The admin creates a badge or credential and associates it with the issuer.</li>
+</ol>
+<p><img alt="BadgeFed Workflow Diagram" loading="lazy" src="/images/s04.png"></p>
+<ol start="3">
+<li>The admin grants a badge or credential to a recipient using a URL, phone number, or email address, following the OpenBadges standard. If the URL is a Fediverse actor, the recipient receives a private ActivityPub notification. If an email is provided, BadgeFed sends a link via email. An approval link is also available for manual sharing.</li>
+</ol>
+<p><img alt="BadgeFed Workflow Diagram" loading="lazy" src="/images/s01.png"></p>
+<ol start="4">
+<li>The recipient accepts the badge and chooses to make it public or private.</li>
+</ol>
+<p><img alt="BadgeFed Workflow Diagram" loading="lazy" src="/images/s03.png"></p>
+<ol start="5">
+<li>BadgeFed creates a note and associates it with the OpenBadge. This note is decentralized by sending it to the inboxes of the issuer&rsquo;s followers using ActivityPub. The note mentions the recipient, and the badge URL is also an ActivityPub object. The OpenBadge can be exported from this page.</li>
+</ol>
+<blockquote>
+<p>For example, check out <a href="https://badges.vocalcat.com/view/grant/badgesvocalcatcom_4_8_b26c1fc562a7596ef4c3517ec01fbcd6">this badge</a>.<br>
+It shows a credential granted to a Fediverse profile and has a note representation.<br>
+Copy the badge URL and paste it into Mastodon; you can boost, comment, and share this note.</p></blockquote>
+<p>All comments will appear on the badge page.</p>
+<blockquote>
+<p>If you make an <code>Accept: application/activity+json</code> request to the badge URL, it will also return an ActivityPub object.</p></blockquote>
+<p><img alt="BadgeFed Workflow Diagram" loading="lazy" src="/images/s05.png"></p>
+<ol start="6">
+<li>If any of the issuer&rsquo;s followers is another BadgeFed issuer, they can consume and store a copy of the badge, further decentralizing it.</li>
+</ol>
+<blockquote>
+<p>For example, see <a href="https://badges.vocalcat.com/view/grant/verifiedbymahodev_1_1_89fb419013f52130e83e223663906b6b">this external badge</a>.<br>
+It demonstrates a decentralized badge that can be viewed at its original URL, following a pattern similar to other Fediverse services like Mastodon.</p></blockquote>
+<p><img alt="BadgeFed Workflow Diagram" loading="lazy" src="/images/s06.png"></p>
+<ol start="7">
+<li>Any recipient can search for their badges on any BadgeFed instance. The search will display badges from the local instance as well as external badges. Similar to Mastodon, badges can be viewed on the current server or opened at their original source.</li>
+</ol>
+<p><img alt="BadgeFed Workflow Diagram" loading="lazy" src="/images/s07.png"></p>
+<p><strong>ActivityPub integration enables decentralized badge sharing and notifications across the Fediverse.</strong></p>
+]]></content:encoded>
+      
+    </item>
     <item>
       <title>BadgeFed: Early Decentralization Experiments &#43; OpenBadges Export! - Second April 2025 Update</title>
-      <link>https://badgefed.vocalcat.com/post/04-april2nd-update/</link>
+      <link>http://localhost:1313/post/04-april2nd-update/</link>
       <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/post/04-april2nd-update/</guid>
+      <guid>http://localhost:1313/post/04-april2nd-update/</guid>
       <description>&lt;p&gt;Hey Fediverse! 👋&lt;br&gt;
 Two weeks have passed and here we have another update from the BadgeFed burrow!
 Here&amp;rsquo;s what&amp;rsquo;s new, brewing, and how you can jump in if you&amp;rsquo;re feeling adventurous.&lt;/p&gt;
@@ -106,9 +162,9 @@ We think this is a critical building block for decentralization. 🛠️</p>
     </item>
     <item>
       <title>BadgeFed Grows Up (a Little) - April 2025 Update</title>
-      <link>https://badgefed.vocalcat.com/post/03-april-update/</link>
+      <link>http://localhost:1313/post/03-april-update/</link>
       <pubDate>Sun, 13 Apr 2025 16:27:54 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/post/03-april-update/</guid>
+      <guid>http://localhost:1313/post/03-april-update/</guid>
       <description>&lt;p&gt;Hey Fediverse! 👋&lt;br&gt;
 Big news—BadgeFed is officially growing out of its prototype phase. This is your periodic (weekly? monthly? vibes-based?) update on what’s new, what’s brewing, and what we need help with.&lt;/p&gt;
 &lt;hr&gt;
@@ -187,9 +243,9 @@ Huge thanks to <a href="https://stefanbohacek.online/@stefan">Stefan Bohacek</a>
     </item>
     <item>
       <title>BadgeFed: From Prototype to Reality</title>
-      <link>https://badgefed.vocalcat.com/post/02-roadmap/</link>
+      <link>http://localhost:1313/post/02-roadmap/</link>
       <pubDate>Mon, 31 Mar 2025 16:27:54 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/post/02-roadmap/</guid>
+      <guid>http://localhost:1313/post/02-roadmap/</guid>
       <description>&lt;p&gt;Hey Fediverse, we&amp;rsquo;ve got some exciting news—BadgeFed is moving out of the prototype phase! That&amp;rsquo;s right, what started as a scrappy proof-of-concept is now becoming a real, structured, and (dare we say) polished federated badge system.
 And since we believe in working out in the open, we want to share our roadmap with you.&lt;/p&gt;
 &lt;h2 id=&#34;the-big-three-priorities-&#34;&gt;The Big Three Priorities 🏆&lt;/h2&gt;
@@ -246,9 +302,9 @@ This is an open-source project, and the best way to make sure it fits the needs 
     </item>
     <item>
       <title>Introducing a Minimalistic ActivityPub Badge System: Decentralized, Verified, and Built for the Fediverse</title>
-      <link>https://badgefed.vocalcat.com/post/01-init/</link>
+      <link>http://localhost:1313/post/01-init/</link>
       <pubDate>Sun, 30 Mar 2025 20:27:54 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/post/01-init/</guid>
+      <guid>http://localhost:1313/post/01-init/</guid>
       <description>&lt;p&gt;In the ever-evolving world of digital credentials, we’ve seen centralized platforms like Credly dominate the badge and certification space.
 But what if we could flip the script? What if badges could be decentralized, self-certified, and issued directly by organizations in the Fediverse?&lt;/p&gt;
 &lt;p&gt;By reusing the social graph already present in the Fediverse, we can enable a seamless integration of badges into the networks people are already part of.
@@ -304,9 +360,9 @@ Imagine the survivability of certificates in such a system—if your issuer disa
     </item>
     <item>
       <title>Hello Fediverse!</title>
-      <link>https://badgefed.vocalcat.com/post/hello-world/</link>
+      <link>http://localhost:1313/post/hello-world/</link>
       <pubDate>Sun, 30 Mar 2025 18:27:54 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/post/hello-world/</guid>
+      <guid>http://localhost:1313/post/hello-world/</guid>
       <description></description>
       
         

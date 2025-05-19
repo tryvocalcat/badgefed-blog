@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on BadgeFed Official Blog</title>
-    <link>https://badgefed.vocalcat.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on BadgeFed Official Blog</description>
     <image>
       <title>BadgeFed Official Blog</title>
-      <url>https://badgefed.vocalcat.com/images/avatar.png</url>
-      <link>https://badgefed.vocalcat.com/images/avatar.png</link>
+      <url>http://localhost:1313/images/avatar.png</url>
+      <link>http://localhost:1313/images/avatar.png</link>
     </image>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Apr 2025 16:55:00 +0000</lastBuildDate>
-    <atom:link href="https://badgefed.vocalcat.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Activitypub</title>
-      <link>https://badgefed.vocalcat.com/tags/activitypub/</link>
+      <link>http://localhost:1313/tags/activitypub/</link>
       <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/tags/activitypub/</guid>
+      <guid>http://localhost:1313/tags/activitypub/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Badgefed</title>
-      <link>https://badgefed.vocalcat.com/tags/badgefed/</link>
+      <link>http://localhost:1313/tags/badgefed/</link>
       <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/tags/badgefed/</guid>
+      <guid>http://localhost:1313/tags/badgefed/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Decentralization</title>
-      <link>https://badgefed.vocalcat.com/tags/decentralization/</link>
+      <link>http://localhost:1313/tags/decentralization/</link>
       <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/tags/decentralization/</guid>
+      <guid>http://localhost:1313/tags/decentralization/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Dotnet</title>
-      <link>https://badgefed.vocalcat.com/tags/dotnet/</link>
+      <link>http://localhost:1313/tags/dotnet/</link>
       <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/tags/dotnet/</guid>
+      <guid>http://localhost:1313/tags/dotnet/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Fediverse</title>
-      <link>https://badgefed.vocalcat.com/tags/fediverse/</link>
+      <link>http://localhost:1313/tags/fediverse/</link>
       <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/tags/fediverse/</guid>
+      <guid>http://localhost:1313/tags/fediverse/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Identity</title>
-      <link>https://badgefed.vocalcat.com/tags/identity/</link>
+      <link>http://localhost:1313/tags/identity/</link>
       <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/tags/identity/</guid>
+      <guid>http://localhost:1313/tags/identity/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Open-Source</title>
-      <link>https://badgefed.vocalcat.com/tags/open-source/</link>
+      <link>http://localhost:1313/tags/open-source/</link>
       <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/tags/open-source/</guid>
+      <guid>http://localhost:1313/tags/open-source/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Openbadges</title>
-      <link>https://badgefed.vocalcat.com/tags/openbadges/</link>
+      <link>http://localhost:1313/tags/openbadges/</link>
       <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/tags/openbadges/</guid>
+      <guid>http://localhost:1313/tags/openbadges/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Roadmap</title>
-      <link>https://badgefed.vocalcat.com/tags/roadmap/</link>
+      <link>http://localhost:1313/tags/roadmap/</link>
       <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/tags/roadmap/</guid>
+      <guid>http://localhost:1313/tags/roadmap/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Badfeded</title>
-      <link>https://badgefed.vocalcat.com/tags/badfeded/</link>
+      <link>http://localhost:1313/tags/badfeded/</link>
       <pubDate>Sun, 30 Mar 2025 20:27:54 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/tags/badfeded/</guid>
+      <guid>http://localhost:1313/tags/badfeded/</guid>
       <description></description>
       
     </item>

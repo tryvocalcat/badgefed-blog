@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Badfeded on BadgeFed Official Blog</title>
-    <link>https://badgefed.vocalcat.com/tags/badfeded/</link>
+    <link>http://localhost:1313/tags/badfeded/</link>
     <description>Recent content in Badfeded on BadgeFed Official Blog</description>
     <image>
       <title>BadgeFed Official Blog</title>
-      <url>https://badgefed.vocalcat.com/images/avatar.png</url>
-      <link>https://badgefed.vocalcat.com/images/avatar.png</link>
+      <url>http://localhost:1313/images/avatar.png</url>
+      <link>http://localhost:1313/images/avatar.png</link>
     </image>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Mar 2025 20:27:54 +0000</lastBuildDate>
-    <atom:link href="https://badgefed.vocalcat.com/tags/badfeded/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/badfeded/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing a Minimalistic ActivityPub Badge System: Decentralized, Verified, and Built for the Fediverse</title>
-      <link>https://badgefed.vocalcat.com/post/01-init/</link>
+      <link>http://localhost:1313/post/01-init/</link>
       <pubDate>Sun, 30 Mar 2025 20:27:54 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/post/01-init/</guid>
+      <guid>http://localhost:1313/post/01-init/</guid>
       <description>&lt;p&gt;In the ever-evolving world of digital credentials, we’ve seen centralized platforms like Credly dominate the badge and certification space.
 But what if we could flip the script? What if badges could be decentralized, self-certified, and issued directly by organizations in the Fediverse?&lt;/p&gt;
 &lt;p&gt;By reusing the social graph already present in the Fediverse, we can enable a seamless integration of badges into the networks people are already part of.
@@ -73,9 +73,9 @@ Imagine the survivability of certificates in such a system—if your issuer disa
     </item>
     <item>
       <title>Hello Fediverse!</title>
-      <link>https://badgefed.vocalcat.com/post/hello-world/</link>
+      <link>http://localhost:1313/post/hello-world/</link>
       <pubDate>Sun, 30 Mar 2025 18:27:54 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/post/hello-world/</guid>
+      <guid>http://localhost:1313/post/hello-world/</guid>
       <description></description>
       
         
