@@ -54,3 +54,7 @@ url = "post"
 [[params.profileMode.buttons]]
 name = "GitHub Repo"
 url = "https://github.com/tryvocalcat/activitypub-badges"
+
+[[params.profileMode.buttons]]
+name = "See it in action!"
+url = "https://badges.vocalcat.com"
