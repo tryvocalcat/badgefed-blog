@@ -11,12 +11,12 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Apr 2025 16:55:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jun 2025 20:00:00 +0000</lastBuildDate>
     <atom:link href="https://badgefed.vocalcat.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Activitypub</title>
       <link>https://badgefed.vocalcat.com/tags/activitypub/</link>
-      <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
+      <pubDate>Mon, 16 Jun 2025 20:00:00 +0000</pubDate>
       <guid>https://badgefed.vocalcat.com/tags/activitypub/</guid>
       <description></description>
       
@@ -24,7 +24,7 @@
     <item>
       <title>Badgefed</title>
       <link>https://badgefed.vocalcat.com/tags/badgefed/</link>
-      <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
+      <pubDate>Mon, 16 Jun 2025 20:00:00 +0000</pubDate>
       <guid>https://badgefed.vocalcat.com/tags/badgefed/</guid>
       <description></description>
       
@@ -32,7 +32,7 @@
     <item>
       <title>Decentralization</title>
       <link>https://badgefed.vocalcat.com/tags/decentralization/</link>
-      <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
+      <pubDate>Mon, 16 Jun 2025 20:00:00 +0000</pubDate>
       <guid>https://badgefed.vocalcat.com/tags/decentralization/</guid>
       <description></description>
       
@@ -40,15 +40,23 @@
     <item>
       <title>Dotnet</title>
       <link>https://badgefed.vocalcat.com/tags/dotnet/</link>
-      <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
+      <pubDate>Mon, 16 Jun 2025 20:00:00 +0000</pubDate>
       <guid>https://badgefed.vocalcat.com/tags/dotnet/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Fediforum</title>
+      <link>https://badgefed.vocalcat.com/tags/fediforum/</link>
+      <pubDate>Mon, 16 Jun 2025 20:00:00 +0000</pubDate>
+      <guid>https://badgefed.vocalcat.com/tags/fediforum/</guid>
       <description></description>
       
     </item>
     <item>
       <title>Fediverse</title>
       <link>https://badgefed.vocalcat.com/tags/fediverse/</link>
-      <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
+      <pubDate>Mon, 16 Jun 2025 20:00:00 +0000</pubDate>
       <guid>https://badgefed.vocalcat.com/tags/fediverse/</guid>
       <description></description>
       
@@ -56,7 +64,7 @@
     <item>
       <title>Identity</title>
       <link>https://badgefed.vocalcat.com/tags/identity/</link>
-      <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
+      <pubDate>Mon, 16 Jun 2025 20:00:00 +0000</pubDate>
       <guid>https://badgefed.vocalcat.com/tags/identity/</guid>
       <description></description>
       
@@ -64,7 +72,7 @@
     <item>
       <title>Open-Source</title>
       <link>https://badgefed.vocalcat.com/tags/open-source/</link>
-      <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
+      <pubDate>Mon, 16 Jun 2025 20:00:00 +0000</pubDate>
       <guid>https://badgefed.vocalcat.com/tags/open-source/</guid>
       <description></description>
       
@@ -72,8 +80,16 @@
     <item>
       <title>Openbadges</title>
       <link>https://badgefed.vocalcat.com/tags/openbadges/</link>
-      <pubDate>Mon, 28 Apr 2025 16:55:00 +0000</pubDate>
+      <pubDate>Mon, 16 Jun 2025 20:00:00 +0000</pubDate>
       <guid>https://badgefed.vocalcat.com/tags/openbadges/</guid>
+      <description></description>
+      
+    </item>
+    <item>
+      <title>Recap</title>
+      <link>https://badgefed.vocalcat.com/tags/recap/</link>
+      <pubDate>Mon, 16 Jun 2025 20:00:00 +0000</pubDate>
+      <guid>https://badgefed.vocalcat.com/tags/recap/</guid>
       <description></description>
       
     </item>

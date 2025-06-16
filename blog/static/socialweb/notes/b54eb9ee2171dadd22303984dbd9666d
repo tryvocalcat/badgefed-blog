@@ -3,19 +3,69 @@
   "id": "https://badgefed.vocalcat.com/socialweb/notes/b54eb9ee2171dadd22303984dbd9666d",
   "type": "Note",
   "hash": "b54eb9ee2171dadd22303984dbd9666d",
-  "content": " \u003Cbr /\u003E \u003Cp\u003EYou can read the article \u0022\u0022 by \u003Ca href=\u0022https://hachyderm.io/users/mapache\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Emapache\u003C/span\u003E\u003C/a\u003E \u003Ca href=\u0022https://badgefed.vocalcat.com/post/05-fediforum/\u0022\u003Ehere\u003C/a\u003E as well.\u003C/p\u003E ",
+  "content": "\u003Cp\u003EHey Fediverse! \uD83D\uDC4B\u003C/p\u003E\n\u003Cp\u003EWe just wrapped up an amazing FediForum June 2025 a week ago, and BadgeFed was right in the thick of it! Here\u2019s a recap of what we did, what we learned, and what\u2019s next for decentralized badges.\u003C/p\u003E\n\u003Chr\u003E\n\u003Ch2 id=\u0022badgefed-at-fediforum-unconferences--speed-demos\u0022\u003EBadgeFed at FediForum: Unconferences \u0026amp; Speed Demos\u003C/h2\u003E\n\u003Cp\u003EBadgeFed had the honor of presenting and hosting \u003Cstrong\u003Etwo unconference sessions\u003C/strong\u003E and showing off our work in \u003Cstrong\u003Eone speed demo slots\u003C/strong\u003E (\u003Ca href=\u0022https://www.youtube.com/watch?v=7TBJpaqZ7Ng\u0022\u003Ewatch the demo\u003C/a\u003E). The energy was fantastic; lots of curiosity, sharp questions, and a real hunger for open standards in the credentialing space.\u003C/p\u003E\n\u003Ch2 id=\u0022community-feedback-standards-docs-and-openness\u0022\u003ECommunity Feedback: Standards, Docs, and Openness\u003C/h2\u003E\n\u003Cp\u003EA big theme at FediForum was \u003Cstrong\u003Especs and open standards\u003C/strong\u003E. We\u2019re right there with you! That\u2019s why we\u2019ve enhanced our \u003Ca href=\u0022https://github.com/tryvocalcat/badgefed/blob/main/DETAILS.md\u0022\u003Etechnical documentation\u003C/a\u003E to explain exactly how BadgeFed uses \u003Cstrong\u003EActivityPub\u003C/strong\u003E and \u003Cstrong\u003EOpenBadges\u003C/strong\u003E together:\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003E\u003Cstrong\u003EIssuers are ActivityPub actors\u003C/strong\u003E, each instance can federate and follow others.\u003C/li\u003E\n\u003Cli\u003E\u003Cstrong\u003EBadges are ActivityPub Notes\u003C/strong\u003E with OpenBadge 2.1 attachments for maximum compatibility and verifiability.\u003C/li\u003E\n\u003Cli\u003E\u003Cstrong\u003EStrict linking\u003C/strong\u003E between issuer and badge, and between badge and recipient, to prevent spoofing.\u003C/li\u003E\n\u003Cli\u003E\u003Cstrong\u003ESignature validation\u003C/strong\u003E for both ActivityPub and OpenBadge data.\u003C/li\u003E\n\u003Cli\u003E\u003Cstrong\u003EFederation\u003C/strong\u003E: badges propagate via follows, and a special announcer actor helps with discoverability.\u003C/li\u003E\n\u003Cli\u003E\u003Cstrong\u003EComments and interactions\u003C/strong\u003E: badges can be discussed and shared across the Fediverse.\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cp\u003ERead more in our \u003Ca href=\u0022https://github.com/tryvocalcat/badgefed/blob/main/DETAILS.md\u0022\u003EDETAILS.md\u003C/a\u003E.\u003C/p\u003E\n\u003Ch2 id=\u0022making-badgefed-easier-to-try\u0022\u003EMaking BadgeFed Easier to Try\u003C/h2\u003E\n\u003Cp\u003EWe heard you: people want to try BadgeFed! Right now, it\u2019s a solo setup (one admin, one Docker container), but we\u2019re working hard to make it easier for others to deploy, configure, and even federate their own instances. Stay tuned for updates on multi-admin support and streamlined onboarding.\u003C/p\u003E\n\u003Ch2 id=\u0022feedback-discoverability-vs-spam\u0022\u003EFeedback: Discoverability vs. Spam\u003C/h2\u003E\n\u003Cp\u003EOne of the most important pieces of feedback we received was about \u003Cstrong\u003Ebadge discoverability vs. timeline spam\u003C/strong\u003E (\u003Ca href=\u0022https://github.com/tryvocalcat/badgefed/issues/11\u0022\u003Esee the issue\u003C/a\u003E). We want badges to be easy to find and share, but we also don\u2019t want to flood the Fediverse with unwanted posts. This is now our \u003Cstrong\u003Etop priority\u003C/strong\u003E, we\u2019re rethinking how verbose BadgeFed should be, and exploring opt-in/opt-out models for badge visibility and hashtag use.\u003C/p\u003E\n\u003Ch2 id=\u0022whats-next-embedding--profile-badges\u0022\u003EWhat\u2019s Next: Embedding \u0026amp; Profile Badges\u003C/h2\u003E\n\u003Cp\u003EWe\u2019re also working on ways to let you \u003Cstrong\u003Eembed badges in your blog\u003C/strong\u003E or \u003Cstrong\u003Eadd them to your Mastodon profile\u003C/strong\u003E. More news on that soon!\u003C/p\u003E\n\u003Chr\u003E\n\u003Cp\u003EFediForum was a fantastic experience, huge thanks to everyone who attended, gave feedback, and showed interest in decentralized credentials. Let\u2019s keep building a more open, verifiable, and user-empowered Fediverse!\u003C/p\u003E\n\u003Cp\u003EBadge up, and see you in the timeline! \uD83C\uDFC5\u003C/p\u003E\n \u003Cbr /\u003E \u003Cp\u003EYou can read the article \u0022BadgeFed @ FediForum June 2025: Unconferences, Demos, and Community Feedback\u0022 by \u003Ca href=\u0022https://hachyderm.io/users/mapache\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Emapache\u003C/span\u003E\u003C/a\u003E \u003Ca href=\u0022https://badgefed.vocalcat.com/post/05-fediforum/\u0022\u003Ehere\u003C/a\u003E as well.\u003C/p\u003E  \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/activitypub\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eactivitypub\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/badgefed\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Ebadgefed\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/fediverse\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Efediverse\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/dotnet\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Edotnet\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/decentralization\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Edecentralization\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/open-source\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eopen-source\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/openbadges\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eopenbadges\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/identity\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eidentity\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/fediforum\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Efediforum\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/recap\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Erecap\u003C/span\u003E\u003C/a\u003E",
   "url": "https://badgefed.vocalcat.com/post/05-fediforum/",
   "attributedTo": "https://badgefed.vocalcat.com/socialweb/actor",
   "to": [
     "https://www.w3.org/ns/activitystreams#Public"
   ],
   "cc": [],
-  "published": "0001-01-01T00:00:00\u002B00:00",
+  "published": "2025-06-16T20:00:00\u002B00:00",
   "tag": [
     {
       "type": "Mention",
       "href": "https://hachyderm.io/users/mapache",
       "name": "\\@mapache@hachyderm.io"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/activitypub",
+      "name": "#activitypub"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/badgefed",
+      "name": "#badgefed"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/fediverse",
+      "name": "#fediverse"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/dotnet",
+      "name": "#dotnet"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/decentralization",
+      "name": "#decentralization"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/open-source",
+      "name": "#open-source"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/openbadges",
+      "name": "#openbadges"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/identity",
+      "name": "#identity"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/fediforum",
+      "name": "#fediforum"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/recap",
+      "name": "#recap"
     }
   ],
   "replies": {

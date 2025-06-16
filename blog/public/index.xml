@@ -11,8 +11,68 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 May 2025 08:40:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jun 2025 20:00:00 +0000</lastBuildDate>
     <atom:link href="https://badgefed.vocalcat.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BadgeFed @ FediForum June 2025: Unconferences, Demos, and Community Feedback</title>
+      <link>https://badgefed.vocalcat.com/post/05-fediforum/</link>
+      <pubDate>Mon, 16 Jun 2025 20:00:00 +0000</pubDate>
+      <guid>https://badgefed.vocalcat.com/post/05-fediforum/</guid>
+      <description>&lt;p&gt;Hey Fediverse! 👋&lt;/p&gt;
+&lt;p&gt;We just wrapped up an amazing FediForum June 2025 a week ago, and BadgeFed was right in the thick of it! Here’s a recap of what we did, what we learned, and what’s next for decentralized badges.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;badgefed-at-fediforum-unconferences--speed-demos&#34;&gt;BadgeFed at FediForum: Unconferences &amp;amp; Speed Demos&lt;/h2&gt;
+&lt;p&gt;BadgeFed had the honor of presenting and hosting &lt;strong&gt;two unconference sessions&lt;/strong&gt; and showing off our work in &lt;strong&gt;one speed demo slots&lt;/strong&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=7TBJpaqZ7Ng&#34;&gt;watch the demo&lt;/a&gt;). The energy was fantastic; lots of curiosity, sharp questions, and a real hunger for open standards in the credentialing space.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Hey Fediverse! 👋</p>
+<p>We just wrapped up an amazing FediForum June 2025 a week ago, and BadgeFed was right in the thick of it! Here’s a recap of what we did, what we learned, and what’s next for decentralized badges.</p>
+<hr>
+<h2 id="badgefed-at-fediforum-unconferences--speed-demos">BadgeFed at FediForum: Unconferences &amp; Speed Demos</h2>
+<p>BadgeFed had the honor of presenting and hosting <strong>two unconference sessions</strong> and showing off our work in <strong>one speed demo slots</strong> (<a href="https://www.youtube.com/watch?v=7TBJpaqZ7Ng">watch the demo</a>). The energy was fantastic; lots of curiosity, sharp questions, and a real hunger for open standards in the credentialing space.</p>
+<h2 id="community-feedback-standards-docs-and-openness">Community Feedback: Standards, Docs, and Openness</h2>
+<p>A big theme at FediForum was <strong>specs and open standards</strong>. We’re right there with you! That’s why we’ve enhanced our <a href="https://github.com/tryvocalcat/badgefed/blob/main/DETAILS.md">technical documentation</a> to explain exactly how BadgeFed uses <strong>ActivityPub</strong> and <strong>OpenBadges</strong> together:</p>
+<ul>
+<li><strong>Issuers are ActivityPub actors</strong>, each instance can federate and follow others.</li>
+<li><strong>Badges are ActivityPub Notes</strong> with OpenBadge 2.1 attachments for maximum compatibility and verifiability.</li>
+<li><strong>Strict linking</strong> between issuer and badge, and between badge and recipient, to prevent spoofing.</li>
+<li><strong>Signature validation</strong> for both ActivityPub and OpenBadge data.</li>
+<li><strong>Federation</strong>: badges propagate via follows, and a special announcer actor helps with discoverability.</li>
+<li><strong>Comments and interactions</strong>: badges can be discussed and shared across the Fediverse.</li>
+</ul>
+<p>Read more in our <a href="https://github.com/tryvocalcat/badgefed/blob/main/DETAILS.md">DETAILS.md</a>.</p>
+<h2 id="making-badgefed-easier-to-try">Making BadgeFed Easier to Try</h2>
+<p>We heard you: people want to try BadgeFed! Right now, it’s a solo setup (one admin, one Docker container), but we’re working hard to make it easier for others to deploy, configure, and even federate their own instances. Stay tuned for updates on multi-admin support and streamlined onboarding.</p>
+<h2 id="feedback-discoverability-vs-spam">Feedback: Discoverability vs. Spam</h2>
+<p>One of the most important pieces of feedback we received was about <strong>badge discoverability vs. timeline spam</strong> (<a href="https://github.com/tryvocalcat/badgefed/issues/11">see the issue</a>). We want badges to be easy to find and share, but we also don’t want to flood the Fediverse with unwanted posts. This is now our <strong>top priority</strong>, we’re rethinking how verbose BadgeFed should be, and exploring opt-in/opt-out models for badge visibility and hashtag use.</p>
+<h2 id="whats-next-embedding--profile-badges">What’s Next: Embedding &amp; Profile Badges</h2>
+<p>We’re also working on ways to let you <strong>embed badges in your blog</strong> or <strong>add them to your Mastodon profile</strong>. More news on that soon!</p>
+<hr>
+<p>FediForum was a fantastic experience, huge thanks to everyone who attended, gave feedback, and showed interest in decentralized credentials. Let’s keep building a more open, verifiable, and user-empowered Fediverse!</p>
+<p>Badge up, and see you in the timeline! 🏅</p>
+]]></content:encoded>
+      
+        
+          <category>activitypub</category>
+        
+          <category>badgefed</category>
+        
+          <category>fediverse</category>
+        
+          <category>dotnet</category>
+        
+          <category>decentralization</category>
+        
+          <category>open-source</category>
+        
+          <category>openbadges</category>
+        
+          <category>identity</category>
+        
+          <category>fediforum</category>
+        
+          <category>recap</category>
+        
+      
+    </item>
     <item>
       <title>Decentralized Badge Issuance: An End-to-End Workflow</title>
       <link>https://badgefed.vocalcat.com/demo/</link>
@@ -372,14 +432,6 @@ Imagine the survivability of certificates in such a system—if your issuer disa
         
           <category>fediverse</category>
         
-      
-    </item>
-    <item>
-      <title></title>
-      <link>https://badgefed.vocalcat.com/post/05-fediforum/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://badgefed.vocalcat.com/post/05-fediforum/</guid>
-      <description></description>
       
     </item>
   </channel>
