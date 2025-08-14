@@ -1,0 +1,66 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "https://badgefed.vocalcat.com/socialweb/notes/8fb9182154775379ce575a5f207d3297",
+  "type": "Note",
+  "hash": "8fb9182154775379ce575a5f207d3297",
+  "content": "\u003Cp\u003EHey Fediverse! \uD83D\uDC4B\u003C/p\u003E\n\u003Cp\u003EWe\u0026rsquo;ve been quiet\u2026 but not idle. Forget waiting for long blog posts, time for micro updates.\u003C/p\u003E\n\u003Cp\u003EToday\u0026rsquo;s news:\u003C/p\u003E\n\u003Cp\u003EWe\u2019ve got a few BadgeFed instances live and federating! \uD83C\uDFC5\u003C/p\u003E\n\u003Cp\u003ETo make it happen, we did a hardcore backend rewrite to support \u003Cstrong\u003Emultiple domains on a single machine\u003C/strong\u003E.\nFor most, it\u0026rsquo;s a niche cost-saving move, but it might be useful for others too. Under the hood: each domain runs its own SQLite DB, with backups in place.\u003C/p\u003E\n\u003Cp\u003EBut this isn\u0026rsquo;t just about the tech, the fun part is seeing multiple BadgeFed servers talking to each other (!!). Follow them, check the thread, boost it, and watch for more as they come online!\u003C/p\u003E\n \u003Cbr /\u003E \u003Cp\u003EYou can read the article \u0022BadgeFed Update: Multiple Instances Online!\u0022 by \u003Ca href=\u0022https://hachyderm.io/users/mapache\u0022 class=\u0022u-url mention\u0022\u003E@\u003Cspan\u003Emapache\u003C/span\u003E\u003C/a\u003E \u003Ca href=\u0022https://badgefed.vocalcat.com/post/06-instances-online/\u0022\u003Ehere\u003C/a\u003E as well.\u003C/p\u003E  \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/badgefed\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Ebadgefed\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/fediverse\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Efediverse\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/openbadges\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eopenbadges\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/update\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eupdate\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/activitypub\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Eactivitypub\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/sqlite\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Esqlite\u003C/span\u003E\u003C/a\u003E \u003Ca href =\u0022https://badgefed.vocalcat.com/tags/federation\u0022 class=\u0022mention hashtag\u0022 rel=\u0022tag\u0022\u003E#\u003Cspan\u003Efederation\u003C/span\u003E\u003C/a\u003E",
+  "url": "https://badgefed.vocalcat.com/post/06-instances-online/",
+  "attributedTo": "https://badgefed.vocalcat.com/socialweb/actor",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "cc": [],
+  "published": "2025-08-13T20:00:00\u002B00:00",
+  "tag": [
+    {
+      "type": "Mention",
+      "href": "https://hachyderm.io/users/mapache",
+      "name": "\\@mapache@hachyderm.io"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/badgefed",
+      "name": "#badgefed"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/fediverse",
+      "name": "#fediverse"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/openbadges",
+      "name": "#openbadges"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/update",
+      "name": "#update"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/activitypub",
+      "name": "#activitypub"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/sqlite",
+      "name": "#sqlite"
+    },
+    {
+      "type": "Hashtag",
+      "href": "https://badgefed.vocalcat.com/tags/federation",
+      "name": "#federation"
+    }
+  ],
+  "replies": {
+    "id": "https://badgefed.vocalcat.com/socialweb/replies/8fb9182154775379ce575a5f207d3297",
+    "type": "Collection",
+    "first": {
+      "type": "CollectionPage",
+      "next": "https://badgefed.vocalcat.com/socialweb/replies/8fb9182154775379ce575a5f207d3297?page=true",
+      "partOf": "https://badgefed.vocalcat.com/socialweb/replies/8fb9182154775379ce575a5f207d3297",
+      "items": []
+    }
+  }
+}
