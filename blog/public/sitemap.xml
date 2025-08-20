@@ -3,36 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://badgefed.vocalcat.com/tags/activitypub/</loc>
-    <lastmod>2025-08-13T20:00:00+00:00</lastmod>
+    <lastmod>2025-08-19T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://badgefed.vocalcat.com/tags/badgefed/</loc>
-    <lastmod>2025-08-13T20:00:00+00:00</lastmod>
+    <lastmod>2025-08-19T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://badgefed.vocalcat.com/post/07-breaking-changes/</loc>
+    <lastmod>2025-08-19T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://badgefed.vocalcat.com/</loc>
-    <lastmod>2025-08-13T20:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://badgefed.vocalcat.com/post/06-instances-online/</loc>
-    <lastmod>2025-08-13T20:00:00+00:00</lastmod>
+    <lastmod>2025-08-19T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://badgefed.vocalcat.com/tags/federation/</loc>
-    <lastmod>2025-08-13T20:00:00+00:00</lastmod>
+    <lastmod>2025-08-19T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://badgefed.vocalcat.com/tags/fediverse/</loc>
-    <lastmod>2025-08-13T20:00:00+00:00</lastmod>
+    <lastmod>2025-08-19T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://badgefed.vocalcat.com/tags/openbadges/</loc>
-    <lastmod>2025-08-13T20:00:00+00:00</lastmod>
+    <lastmod>2025-08-19T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://badgefed.vocalcat.com/post/</loc>
-    <lastmod>2025-08-13T20:00:00+00:00</lastmod>
+    <lastmod>2025-08-19T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://badgefed.vocalcat.com/tags/sqlite/</loc>
-    <lastmod>2025-08-13T20:00:00+00:00</lastmod>
+    <lastmod>2025-08-19T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://badgefed.vocalcat.com/tags/</loc>
-    <lastmod>2025-08-13T20:00:00+00:00</lastmod>
+    <lastmod>2025-08-19T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://badgefed.vocalcat.com/tags/update/</loc>
+    <lastmod>2025-08-19T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://badgefed.vocalcat.com/post/06-instances-online/</loc>
     <lastmod>2025-08-13T20:00:00+00:00</lastmod>
   </url><url>
     <loc>https://badgefed.vocalcat.com/post/05-fediforum-recap/</loc>

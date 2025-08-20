@@ -11,8 +11,51 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Aug 2025 20:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Aug 2025 10:00:00 +0000</lastBuildDate>
     <atom:link href="https://badgefed.vocalcat.com/tags/activitypub/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BadgeFed 0.1.1 — Breaking change: per-domain database filenames</title>
+      <link>https://badgefed.vocalcat.com/post/07-breaking-changes/</link>
+      <pubDate>Tue, 19 Aug 2025 10:00:00 +0000</pubDate>
+      <guid>https://badgefed.vocalcat.com/post/07-breaking-changes/</guid>
+      <description>&lt;p&gt;We are VERY excited about all the features landing in the next release! However, we’re also introducing one big breaking change—and that’s the purpose of this post. WE ENCOURAGE EVERYONE USING BADGEFED TO CREATE A DATABASE BACKUP BEFORE UPGRADING.&lt;/p&gt;
+&lt;p&gt;(GO, do it now, we will wait for you and then continue reading this post.)&lt;/p&gt;
+&lt;p&gt;Don’t worry: if you forget, chances are you won’t lose data, but recovery may be trickier. If you can, please back up first.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>We are VERY excited about all the features landing in the next release! However, we’re also introducing one big breaking change—and that’s the purpose of this post. WE ENCOURAGE EVERYONE USING BADGEFED TO CREATE A DATABASE BACKUP BEFORE UPGRADING.</p>
+<p>(GO, do it now, we will wait for you and then continue reading this post.)</p>
+<p>Don’t worry: if you forget, chances are you won’t lose data, but recovery may be trickier. If you can, please back up first.</p>
+<h2 id="summary-read-before-upgrading">Summary (read before upgrading)</h2>
+<ul>
+<li>Database filenames now match your domain, for example: <code>mydomain.db</code>. The previous single default filename is no longer used by default.</li>
+<li>Back up your existing SQLite file NOW. You can also download a backup from the admin portal: Admin &gt; Database &gt; Download Backup.</li>
+<li>After upgrading to 0.1.1, the app uses a per-domain database. Use the import utility to migrate from your backup—or copy your backup into the data directory and rename it to the domain-based filename.</li>
+<li>Prefer one shared database? Set the environment variable <code>SQLITE_DB_PATH</code> to your desired  (or current) filename (for example, <code>badgefed.db</code>).</li>
+</ul>
+<h3 id="if-you-already-upgraded-without-preparing">If you already upgraded without preparing</h3>
+<ul>
+<li>Your previous database was not replaced or deleted. Locate your old <code>badgefed.db</code> (or backup), copy it to the data directory, and rename it to the new domain-based filename.</li>
+</ul>
+<p>The 0.1.1 release and full release notes are coming soon!</p>
+<p>Badge up!</p>
+]]></content:encoded>
+      
+        
+          <category>badgefed</category>
+        
+          <category>fediverse</category>
+        
+          <category>openbadges</category>
+        
+          <category>update</category>
+        
+          <category>activitypub</category>
+        
+          <category>sqlite</category>
+        
+          <category>federation</category>
+        
+      
+    </item>
     <item>
       <title>BadgeFed Update: Multiple Instances Online!</title>
       <link>https://badgefed.vocalcat.com/post/06-instances-online/</link>
